@@ -1,1 +1,1 @@
-Welcome to the ApplicationFrame wiki!
+Welcome to the Application Frame wiki!
