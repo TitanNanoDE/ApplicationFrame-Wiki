@@ -1,7 +1,7 @@
-##Basic How To
+###Basic How To
 To get started, you have to fork this repo at first. After that create a new branch and make your changes. At the end you can create  a pull request to merge your changes.
 
-##Important
+###Important
 If you want to contribute to Application Frame there are some points you have to notice:
 * all AF scripts uses only three globals:
   1. `self` - the global object, in a web like environment this is the same as `window` 
@@ -12,7 +12,7 @@ If you want to contribute to Application Frame there are some points you have to
 * if you create a new lib, make sure that your first line is `self.lib= lib || {};`
 * every file starts with a header comment line
 
-##Additional Infos
+###Additional Infos
 All functions of AF that aren't really related to AF are placed in extra script files / modules, which are contained in the modules folder. Files in the libs folder are JS objects which does not need to run initial code and only provide useful functions.
 
 
