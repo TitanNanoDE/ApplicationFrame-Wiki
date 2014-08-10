@@ -14,4 +14,4 @@ If you want to contribute to Application Frame there are some points you have to
 All functions of AF that aren't really related to AF are placed in extra script files / modules, which are contained in the modules folder. Files in the libs folder are JS objects which does not need to run initial code and only provide useful functions.
 
 
-
+[< back](https://github.com/TitanNano/ApplicationFrame/wiki)
