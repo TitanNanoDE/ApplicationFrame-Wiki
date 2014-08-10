@@ -1,1 +1,1 @@
-[< back](https://github.com/TitanNano/ApplicationFrame/wiki)
+ 
