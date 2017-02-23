@@ -1,4 +1,4 @@
-**Required Traits: `EventTarget`**
+**Required Traits: [`EventTarget`](https://github.com/TitanNanoDE/ApplicationFrame/wiki/Trait:-EventTarget)**
 
 ## Properties
 | Name    | Trait  | Description                                               |
