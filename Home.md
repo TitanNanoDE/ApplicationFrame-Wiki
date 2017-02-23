@@ -1,7 +1,5 @@
-Welcome to the Application Frame wiki!
-
-## Usage
-* [Engine Settings](https://github.com/TitanNano/ApplicationFrame/wiki/Engine-Settings)
+## Contents
+* [Traits](https://github.com/TitanNanoDE/ApplicationFrame/wiki/Traits)
 
 
 ## Contribute
