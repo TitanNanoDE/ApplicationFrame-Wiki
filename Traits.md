@@ -3,7 +3,7 @@ Many people might call them `interfaces`, but traits particularly describe which
 As mentioned before, every object can be expected to own more than one trait at the same time.
 
 ## Application Frame Traits
-* Application
-* EventTarget
+* [Application](https://github.com/TitanNanoDE/ApplicationFrame/wiki/Trait:-Application)
+* [EventTarget](https://github.com/TitanNanoDE/ApplicationFrame/wiki/Trait:-EventTarget)
 * DataStorage
 * RenderEngine
