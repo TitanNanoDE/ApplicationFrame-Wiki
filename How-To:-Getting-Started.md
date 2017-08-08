@@ -3,7 +3,7 @@ To create a Application Frame app, you usually need at least two files.
 
 The first file will be your core application:
 
-````JavaScript
+```JavaScript
 // App.js
 
 import Application from 'application-frame/core/Application';
@@ -28,7 +28,7 @@ What does this do?
 with `const App` we create a new application. The properties `name` and `version` are meta information, they are not required, but are good to have.
 The next property is where it gets interesting `init()` is a method on our application. This method will launch our application. Here you should place any start up code. At the moment it only contains `this.constructor()` which will setup all the default functionality of an Application Frame app.
 
-```
+```JavaScript
 // bootstrap.js
 
 import App from './App';
