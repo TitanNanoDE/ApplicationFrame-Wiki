@@ -4,7 +4,7 @@
 | value | any   | Holds the current value in the storage. Readonly. |
 
 ## Methods
-### constructor() => `DataStorage`
+### constructor() => [`DataStorage`](https://github.com/TitanNanoDE/ApplicationFrame/wiki/Trait:-DataStorage)
 Instantiates a new data storage.
 
 ### fill(value: `any`) => `void`
