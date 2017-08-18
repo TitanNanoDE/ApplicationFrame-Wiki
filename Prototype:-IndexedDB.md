@@ -2,7 +2,7 @@
 ### constructor(name: `string`) => [`IndexedDB`](https://github.com/TitanNanoDE/ApplicationFrame/wiki/Prototype%3A-IndexedDB)
 Instantiates a new indexed DB. All version definitions have to be made done synchronously. The actual database creation is immediately scheduled for the next event cycle. 
 
-### define(version: `string`) => [`IndexedDefinition`](https://github.com/TitanNanoDE/ApplicationFrame/wiki/Prototype:-IndexedDefinition)
+### define(version: `number`) => [`IndexedDefinition`](https://github.com/TitanNanoDE/ApplicationFrame/wiki/Prototype:-IndexedDefinition)
 Creates a new version definition for the DB. All stores and indexes for the current version have to be defined in this definition.
 
 ### read(storeName: `string`) => `IndexedQueryCompiler`
