@@ -10,3 +10,25 @@ Creates a new query to the database. The store which should be queried from has 
 
 ### write(storeName: `string`, value: `object`) => [`Promise`](https://developer.mozilla.org/en-US/docs/Web/JavaScript/Reference/Global_Objects/Promise)
 Stores an object in the selected store. The promise resolves to the transaction result.
+
+## Examples
+
+### Creating a new DB
+ 
+```JavaScript
+import IndexedDB from 'application-frame/IndexedDB';
+const { create } = Object;
+
+const DB = create(IndexedDB).constructor('myTestDB')
+    .define(1)
+        .store('testStore')
+            .index('id', ['id'], null)
+            .index('idAndDate', ['id', 'date'], null)
+        .store('secondStore')
+            .index('nameAndPassword', ['name', 'password']);
+
+DB.define(2)
+    .store('newV2Store')
+        .index('id', 'id', { unique: true });
+```
+
