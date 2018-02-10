@@ -23,67 +23,67 @@ removes angulars hashKey property from an object
 **exported:** default        
 **kind:** object        
 **declaration:** const        
-### Properties        
+## Properties        
   
-#### _body          
+### _body          
   
 **Type:** Object          
 **kind:** object          
   
 @private          
   
-#### _headers          
+### _headers          
   
 **Type:** Object          
 **kind:** value          
   
 @private          
   
-#### type          
+### type          
   
 **Type:** [string](https://developer.mozilla.org/en-US/docs/Web/JavaScript/Reference/Global_Objects/String)          
 **kind:** value          
   
   
   
-#### method          
+### method          
   
 **Type:** [string](https://developer.mozilla.org/en-US/docs/Web/JavaScript/Reference/Global_Objects/String)          
 **kind:** value          
   
   
   
-#### url          
+### url          
   
 **Type:** [string](https://developer.mozilla.org/en-US/docs/Web/JavaScript/Reference/Global_Objects/String)          
 **kind:** value          
   
   
   
-#### _listeners          
+### _listeners          
   
 **Type:** function[]          
 **kind:** value          
   
 @private          
   
-#### completed          
+### completed          
   
 **Type:** Boolean          
 **kind:** value          
   
 [completed description]          
   
-#### \_\_proto\_\_          
+### \_\_proto\_\_          
   
 **Type:** [EventTarget](Module:-EventTarget.md#EventTarget)          
 **kind:** value          
   
 undefined          
   
-### Methods        
+## Methods        
   
-#### constructor(url, config) => {[NetworkRequest](Module:-NetworkRequest.md#NetworkRequest)}          
+### constructor(url, config) => {[NetworkRequest](Module:-NetworkRequest.md#NetworkRequest)}          
   
 **kind:** function          
   
@@ -95,7 +95,7 @@ undefined
 The constructor for the NetworkRequest. It simply sets up the properties.          
   
   
-#### _make(args) => {[void](https://developer.mozilla.org/en-US/docs/Web/JavaScript/Reference/Global_Objects/undefined)}          
+### _make(args) => {[void](https://developer.mozilla.org/en-US/docs/Web/JavaScript/Reference/Global_Objects/undefined)}          
   
 **kind:** function          
   
@@ -106,7 +106,7 @@ The constructor for the NetworkRequest. It simply sets up the properties.
 [_make description]  @deprecated use the constructor          
   
   
-#### body(data) => {[NetworkRequest](Module:-NetworkRequest.md#NetworkRequest)}          
+### body(data) => {[NetworkRequest](Module:-NetworkRequest.md#NetworkRequest)}          
   
 **kind:** function          
   
@@ -117,7 +117,7 @@ The constructor for the NetworkRequest. It simply sets up the properties.
 this method will set the given object as the request body.          
   
   
-#### headers(headers) => {[NetworkRequest](Module:-NetworkRequest.md#NetworkRequest)}          
+### headers(headers) => {[NetworkRequest](Module:-NetworkRequest.md#NetworkRequest)}          
   
 **kind:** function          
   
@@ -128,7 +128,7 @@ this method will set the given object as the request body.
 This method will set the request headers, in case custom headers are required.          
   
   
-#### setHeader(key, value) => {[NetworkRequest](Module:-NetworkRequest.md#NetworkRequest)}          
+### setHeader(key, value) => {[NetworkRequest](Module:-NetworkRequest.md#NetworkRequest)}          
   
 **kind:** function          
   
@@ -140,7 +140,7 @@ This method will set the request headers, in case custom headers are required.
 Sets a single header for this request.          
   
   
-#### onReady(fn) => {[void](https://developer.mozilla.org/en-US/docs/Web/JavaScript/Reference/Global_Objects/undefined)}          
+### onReady(fn) => {[void](https://developer.mozilla.org/en-US/docs/Web/JavaScript/Reference/Global_Objects/undefined)}          
   
 **kind:** function          
   
@@ -151,7 +151,7 @@ Sets a single header for this request.
 sets a callback for when the request is ready          
   
   
-#### send() => {[Promise](https://developer.mozilla.org/en-US/docs/Web/JavaScript/Reference/Global_Objects/Promise)}          
+### send() => {[Promise](https://developer.mozilla.org/en-US/docs/Web/JavaScript/Reference/Global_Objects/Promise)}          
   
 **kind:** function          
   

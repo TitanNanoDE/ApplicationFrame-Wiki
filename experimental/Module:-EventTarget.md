@@ -9,32 +9,32 @@
 **exported:** default      
 **kind:** object      
 **declaration:** const      
-### Properties      
+## Properties      
   
-#### _listeners        
+### _listeners        
   
 **Type:** Object        
 **kind:** value        
   
   
   
-### Methods      
+## Methods      
   
-#### constructor() => {[EventTarget](Module:-EventTarget.md#EventTarget)}        
+### constructor() => {[EventTarget](Module:-EventTarget.md#EventTarget)}        
   
 **kind:** function        
   
 @constructs        
   
   
-#### _make() => {this}        
+### _make() => {this}        
   
 **kind:** function        
   
 @deprecated Do not use the make constructors        
   
   
-#### on(type, listener) => {[void](https://developer.mozilla.org/en-US/docs/Web/JavaScript/Reference/Global_Objects/undefined)}        
+### on(type, listener) => {[void](https://developer.mozilla.org/en-US/docs/Web/JavaScript/Reference/Global_Objects/undefined)}        
   
 **kind:** function        
   
@@ -46,7 +46,7 @@
 registers a new listener for the given event.        
   
   
-#### emit(type, data) => {[void](https://developer.mozilla.org/en-US/docs/Web/JavaScript/Reference/Global_Objects/undefined)}        
+### emit(type, data) => {[void](https://developer.mozilla.org/en-US/docs/Web/JavaScript/Reference/Global_Objects/undefined)}        
   
 **kind:** function        
   
@@ -58,7 +58,7 @@ registers a new listener for the given event.
 emmits a new event on this object        
   
   
-#### removeListener(type, listener) => {[void](https://developer.mozilla.org/en-US/docs/Web/JavaScript/Reference/Global_Objects/undefined)}        
+### removeListener(type, listener) => {[void](https://developer.mozilla.org/en-US/docs/Web/JavaScript/Reference/Global_Objects/undefined)}        
   
 **kind:** function        
   

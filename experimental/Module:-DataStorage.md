@@ -59,61 +59,61 @@ undefined
 **exported:** default      
 **kind:** object      
 **declaration:** const      
-### Properties      
+## Properties      
   
-#### _value        
-  
-**kind:** value        
-  
-undefined        
-  
-#### _filledCallbacks        
-  
-  
-undefined        
-  
-#### when        
+### _value        
   
 **kind:** value        
   
 undefined        
   
-#### once        
+### _filledCallbacks        
+  
+  
+undefined        
+  
+### when        
   
 **kind:** value        
   
 undefined        
   
-#### whenNext        
+### once        
   
 **kind:** value        
   
 undefined        
   
-#### \_\_proto\_\_        
+### whenNext        
+  
+**kind:** value        
+  
+undefined        
+  
+### \_\_proto\_\_        
   
 **Type:** [EventTarget](Module:-EventTarget.md#EventTarget)        
 **kind:** value        
   
 undefined        
   
-### Methods      
+## Methods      
   
-#### value() => {?}        
-  
-**kind:** function        
-  
-undefined        
-  
-  
-#### constructor() => {?}        
+### value() => {?}        
   
 **kind:** function        
   
 undefined        
   
   
-#### fill(value) => {?}        
+### constructor() => {?}        
+  
+**kind:** function        
+  
+undefined        
+  
+  
+### fill(value) => {?}        
   
 **kind:** function        
   

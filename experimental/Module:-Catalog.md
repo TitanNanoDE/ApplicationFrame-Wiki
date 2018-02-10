@@ -3,25 +3,25 @@
 **exported:** default      
 **kind:** object      
 **declaration:** let      
-### Properties      
+## Properties      
   
-#### _listeners        
+### _listeners        
   
 **Type:** Function[]        
 **kind:** value        
   
 @private        
   
-### Methods      
+## Methods      
   
-#### _make() => {[void](https://developer.mozilla.org/en-US/docs/Web/JavaScript/Reference/Global_Objects/undefined)}        
+### _make() => {[void](https://developer.mozilla.org/en-US/docs/Web/JavaScript/Reference/Global_Objects/undefined)}        
   
 **kind:** function        
   
 Stores key value pairs and emits events when ever a pair is assigned  @constructs        
   
   
-#### on(event, listener) => {[Promise](https://developer.mozilla.org/en-US/docs/Web/JavaScript/Reference/Global_Objects/Promise)}        
+### on(event, listener) => {[Promise](https://developer.mozilla.org/en-US/docs/Web/JavaScript/Reference/Global_Objects/Promise)}        
   
 **kind:** function        
   
@@ -33,7 +33,7 @@ Stores key value pairs and emits events when ever a pair is assigned  @construct
 gives the ability to register an callback as soon as a event is fired        
   
   
-#### add(key, value) => {[void](https://developer.mozilla.org/en-US/docs/Web/JavaScript/Reference/Global_Objects/undefined)}        
+### add(key, value) => {[void](https://developer.mozilla.org/en-US/docs/Web/JavaScript/Reference/Global_Objects/undefined)}        
   
 **kind:** function        
   

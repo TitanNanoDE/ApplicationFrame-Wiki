@@ -9,46 +9,46 @@
 **exported:** default      
 **kind:** object      
 **declaration:** const      
-### Properties      
+## Properties      
   
-#### name        
+### name        
   
 **Type:** [string](https://developer.mozilla.org/en-US/docs/Web/JavaScript/Reference/Global_Objects/String)        
 **kind:** value        
   
 Name of this application so other components can identify the application.        
   
-#### version        
+### version        
   
 **Type:** [string](https://developer.mozilla.org/en-US/docs/Web/JavaScript/Reference/Global_Objects/String)        
 **kind:** value        
   
 Some components may need to know the version of this applicaion.        
   
-#### author        
+### author        
   
 **Type:** [string](https://developer.mozilla.org/en-US/docs/Web/JavaScript/Reference/Global_Objects/String)        
 **kind:** value        
   
   
   
-#### \_\_proto\_\_        
+### \_\_proto\_\_        
   
 **Type:** [EventTarget](Module:-EventTarget.md#EventTarget)        
 **kind:** value        
   
 [\_\_proto\_\_ description]        
   
-### Methods      
+## Methods      
   
-#### constructor() => {[Application](Module:-Application.md#Application)}        
+### constructor() => {[Application](Module:-Application.md#Application)}        
   
 **kind:** function        
   
 Constructs the Application prototype.        
   
   
-#### _make(args) => {[Application](Module:-Application.md#Application)}        
+### _make(args) => {[Application](Module:-Application.md#Application)}        
   
 **kind:** function        
   
@@ -59,14 +59,14 @@ Constructs the Application prototype.
 @deprecated Do not use any more. @see module:core/Application~Application.constructor        
   
   
-#### init() => {[void](https://developer.mozilla.org/en-US/docs/Web/JavaScript/Reference/Global_Objects/undefined)}        
+### init() => {[void](https://developer.mozilla.org/en-US/docs/Web/JavaScript/Reference/Global_Objects/undefined)}        
   
 **kind:** function        
   
 Initializes this application, default interface for components and modules.        
   
   
-#### terminate(reason) => {[void](https://developer.mozilla.org/en-US/docs/Web/JavaScript/Reference/Global_Objects/undefined)}        
+### terminate(reason) => {[void](https://developer.mozilla.org/en-US/docs/Web/JavaScript/Reference/Global_Objects/undefined)}        
   
 **kind:** function        
   

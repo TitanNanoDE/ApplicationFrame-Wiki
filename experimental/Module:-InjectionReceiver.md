@@ -3,24 +3,24 @@
 **exported:** default      
 **kind:** object      
 **declaration:** const      
-### Properties      
+## Properties      
   
-#### _injectedObjects        
+### _injectedObjects        
   
 **kind:** value        
   
 undefined        
   
-### Methods      
+## Methods      
   
-#### constructor() => {?}        
+### constructor() => {?}        
   
 **kind:** function        
   
 undefined        
   
   
-#### inject(original, injected) => {?}        
+### inject(original, injected) => {?}        
   
 **kind:** function        
   
@@ -32,7 +32,7 @@ undefined
 undefined        
   
   
-#### injected(object) => {?}        
+### injected(object) => {?}        
   
 **kind:** function        
   
