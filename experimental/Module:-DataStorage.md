@@ -1,12 +1,10 @@
-# core/DataStorage.js  
-  
-## EventTarget                  
+# EventTarget                  
   
 **Type:** default                  
 **kind:** import                  
   
   
-## thenHandler(callback) => {?}                
+# thenHandler(callback) => {?}                
   
 **kind:** function                
 **declaration:** const                
@@ -15,8 +13,8 @@
 |------|------|                  
 | callback | undefined |                
   
-fake then if this should be handed to something that expects a promise            
-## catchHandler(callback) => {?}              
+fake then if this should be handed to something that expects a promise                
+# catchHandler(callback) => {?}              
   
 **kind:** function              
 **declaration:** const              
@@ -25,8 +23,8 @@ fake then if this should be handed to something that expects a promise
 |------|------|                
 | callback | undefined |              
   
-dummy catch in case someone tries to use it          
-## whenFilled(target) => {?}            
+dummy catch in case someone tries to use it              
+# whenFilled(target) => {?}            
   
 **kind:** function            
 **declaration:** const            
@@ -35,8 +33,8 @@ dummy catch in case someone tries to use it
 |------|------|              
 | target | undefined |            
   
-undefined        
-## whenNext(target) => {?}          
+undefined            
+# whenNext(target) => {?}          
   
 **kind:** function          
 **declaration:** const          
@@ -45,8 +43,8 @@ undefined
 |------|------|            
 | target | undefined |          
   
-undefined      
-## once(target) => {?}        
+undefined          
+# once(target) => {?}        
   
 **kind:** function        
 **declaration:** const        
@@ -55,8 +53,8 @@ undefined
 |------|------|          
 | target | undefined |        
   
-undefined    
-## DataStorage      
+undefined        
+# DataStorage      
   
 **exported:** default      
 **kind:** object      
@@ -67,45 +65,53 @@ undefined
   
 **kind:** value        
   
-undefined      
+undefined        
+  
 #### _filledCallbacks        
   
   
-undefined      
+undefined        
+  
 #### when        
   
 **kind:** value        
   
-undefined      
+undefined        
+  
 #### once        
   
 **kind:** value        
   
-undefined      
+undefined        
+  
 #### whenNext        
   
 **kind:** value        
   
-undefined      
-#### __proto__        
+undefined        
   
-**Type:** [EventTarget](core/EventTarget.js#EventTarget)        
+#### \_\_proto\_\_        
+  
+**Type:** [EventTarget](Module:-EventTarget.md#EventTarget)        
 **kind:** value        
   
-undefined      
+undefined        
+  
 ### Methods      
   
 #### value() => {?}        
   
 **kind:** function        
   
-undefined      
+undefined        
+  
   
 #### constructor() => {?}        
   
 **kind:** function        
   
-undefined      
+undefined        
+  
   
 #### fill(value) => {?}        
   
@@ -115,6 +121,7 @@ undefined
 |------|------|          
 | value | undefined |        
   
-undefined      
+undefined        
   
-undefined
+  
+undefined      

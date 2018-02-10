@@ -1,12 +1,10 @@
-# core/EventTarget.js  
-  
-## async        
+# async        
   
 **Type:** default        
 **kind:** import        
   
   
-## EventTarget      
+# EventTarget      
   
 **exported:** default      
 **kind:** object      
@@ -19,19 +17,22 @@
 **kind:** value        
   
   
+  
 ### Methods      
   
-#### constructor() => {[EventTarget](core/EventTarget.js#EventTarget)}        
+#### constructor() => {[EventTarget](Module:-EventTarget.md#EventTarget)}        
   
 **kind:** function        
   
-@constructs      
+@constructs        
+  
   
 #### _make() => {this}        
   
 **kind:** function        
   
-@deprecated Do not use the make constructors      
+@deprecated Do not use the make constructors        
+  
   
 #### on(type, listener) => {[void](https://developer.mozilla.org/en-US/docs/Web/JavaScript/Reference/Global_Objects/undefined)}        
   
@@ -42,7 +43,8 @@
 | type | [string](https://developer.mozilla.org/en-US/docs/Web/JavaScript/Reference/Global_Objects/String) |        
 | listener | [function](https://developer.mozilla.org/en-US/docs/Web/JavaScript/Reference/Global_Objects/Function/prototype) |        
   
-registers a new listener for the given event.      
+registers a new listener for the given event.        
+  
   
 #### emit(type, data) => {[void](https://developer.mozilla.org/en-US/docs/Web/JavaScript/Reference/Global_Objects/undefined)}        
   
@@ -53,7 +55,8 @@ registers a new listener for the given event.
 | type | [string](https://developer.mozilla.org/en-US/docs/Web/JavaScript/Reference/Global_Objects/String) |        
 | data | * |        
   
-emmits a new event on this object      
+emmits a new event on this object        
+  
   
 #### removeListener(type, listener) => {[void](https://developer.mozilla.org/en-US/docs/Web/JavaScript/Reference/Global_Objects/undefined)}        
   
@@ -64,6 +67,7 @@ emmits a new event on this object
 | type | [string](https://developer.mozilla.org/en-US/docs/Web/JavaScript/Reference/Global_Objects/String) |        
 | listener | [Function](https://developer.mozilla.org/en-US/docs/Web/JavaScript/Reference/Global_Objects/Function/prototype) |        
   
-removes a previously attached listener function.      
+removes a previously attached listener function.        
   
-undefined
+  
+undefined      

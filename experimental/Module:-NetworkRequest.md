@@ -1,16 +1,14 @@
-# core/NetworkRequest.js  
-  
-## EventTarget              
+# EventTarget              
   
 **Type:** default              
 **kind:** import              
   
   
-##             
+#             
   
   
-@module core/NetworkRequest        
-## stripHashKey(object) => {Object}          
+@module core/NetworkRequest            
+# stripHashKey(object) => {Object}          
   
 **kind:** function          
 **declaration:** const          
@@ -19,8 +17,8 @@
 |------|------|            
 | object | Object |          
   
-removes angulars hashKey property from an object      
-## NetworkRequest        
+removes angulars hashKey property from an object          
+# NetworkRequest        
   
 **exported:** default        
 **kind:** object        
@@ -32,17 +30,20 @@ removes angulars hashKey property from an object
 **Type:** Object          
 **kind:** object          
   
-@private        
+@private          
+  
 #### _headers          
   
 **Type:** Object          
 **kind:** value          
   
-@private        
+@private          
+  
 #### type          
   
 **Type:** [string](https://developer.mozilla.org/en-US/docs/Web/JavaScript/Reference/Global_Objects/String)          
 **kind:** value          
+  
   
   
 #### method          
@@ -51,10 +52,12 @@ removes angulars hashKey property from an object
 **kind:** value          
   
   
+  
 #### url          
   
 **Type:** [string](https://developer.mozilla.org/en-US/docs/Web/JavaScript/Reference/Global_Objects/String)          
 **kind:** value          
+  
   
   
 #### _listeners          
@@ -62,22 +65,25 @@ removes angulars hashKey property from an object
 **Type:** function[]          
 **kind:** value          
   
-@private        
+@private          
+  
 #### completed          
   
 **Type:** Boolean          
 **kind:** value          
   
-[completed description]        
-#### __proto__          
+[completed description]          
   
-**Type:** [EventTarget](core/EventTarget.js#EventTarget)          
+#### \_\_proto\_\_          
+  
+**Type:** [EventTarget](Module:-EventTarget.md#EventTarget)          
 **kind:** value          
   
-undefined        
+undefined          
+  
 ### Methods        
   
-#### constructor(url, config) => {[NetworkRequest](core/NetworkRequest.js#NetworkRequest)}          
+#### constructor(url, config) => {[NetworkRequest](Module:-NetworkRequest.md#NetworkRequest)}          
   
 **kind:** function          
   
@@ -86,7 +92,8 @@ undefined
 | url | [string](https://developer.mozilla.org/en-US/docs/Web/JavaScript/Reference/Global_Objects/String) |          
 | config | Object |          
   
-The constructor for the NetworkRequest. It simply sets up the properties.        
+The constructor for the NetworkRequest. It simply sets up the properties.          
+  
   
 #### _make(args) => {[void](https://developer.mozilla.org/en-US/docs/Web/JavaScript/Reference/Global_Objects/undefined)}          
   
@@ -96,9 +103,10 @@ The constructor for the NetworkRequest. It simply sets up the properties.
 |------|------|            
 | args | array |          
   
-[_make description]  @deprecated use the constructor        
+[_make description]  @deprecated use the constructor          
   
-#### body(data) => {[NetworkRequest](core/NetworkRequest.js#NetworkRequest)}          
+  
+#### body(data) => {[NetworkRequest](Module:-NetworkRequest.md#NetworkRequest)}          
   
 **kind:** function          
   
@@ -106,9 +114,10 @@ The constructor for the NetworkRequest. It simply sets up the properties.
 |------|------|            
 | data | Object |          
   
-this method will set the given object as the request body.        
+this method will set the given object as the request body.          
   
-#### headers(headers) => {[NetworkRequest](core/NetworkRequest.js#NetworkRequest)}          
+  
+#### headers(headers) => {[NetworkRequest](Module:-NetworkRequest.md#NetworkRequest)}          
   
 **kind:** function          
   
@@ -116,9 +125,10 @@ this method will set the given object as the request body.
 |------|------|            
 | headers | Object |          
   
-This method will set the request headers, in case custom headers are required.        
+This method will set the request headers, in case custom headers are required.          
   
-#### setHeader(key, value) => {[NetworkRequest](core/NetworkRequest.js#NetworkRequest)}          
+  
+#### setHeader(key, value) => {[NetworkRequest](Module:-NetworkRequest.md#NetworkRequest)}          
   
 **kind:** function          
   
@@ -127,7 +137,8 @@ This method will set the request headers, in case custom headers are required.
 | key | [string](https://developer.mozilla.org/en-US/docs/Web/JavaScript/Reference/Global_Objects/String) |          
 | value | [string](https://developer.mozilla.org/en-US/docs/Web/JavaScript/Reference/Global_Objects/String) |          
   
-Sets a single header for this request.        
+Sets a single header for this request.          
+  
   
 #### onReady(fn) => {[void](https://developer.mozilla.org/en-US/docs/Web/JavaScript/Reference/Global_Objects/undefined)}          
   
@@ -137,16 +148,18 @@ Sets a single header for this request.
 |------|------|            
 | fn | [function](https://developer.mozilla.org/en-US/docs/Web/JavaScript/Reference/Global_Objects/Function/prototype) |          
   
-sets a callback for when the request is ready        
+sets a callback for when the request is ready          
+  
   
 #### send() => {[Promise](https://developer.mozilla.org/en-US/docs/Web/JavaScript/Reference/Global_Objects/Promise)}          
   
 **kind:** function          
   
-This will actually create the network connection and initiate the request.        
-  
-A network request @extends EventTarget    
-##       
+This will actually create the network connection and initiate the request.          
   
   
-the default export
+A network request @extends EventTarget        
+#       
+  
+  
+the default export      

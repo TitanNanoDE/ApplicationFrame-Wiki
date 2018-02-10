@@ -1,6 +1,4 @@
-# core/nativePrototype.js  
-  
-## nativePrototype(nativeConstructor) => {?}          
+# nativePrototype(nativeConstructor) => {?}          
   
 **exported:** true          
 **kind:** function          
@@ -10,8 +8,8 @@
 |------|------|            
 | nativeConstructor | undefined |          
   
-undefined      
-## prepareConstructor(prototype) => {?}        
+undefined          
+# prepareConstructor(prototype) => {?}        
   
 **exported:** true        
 **kind:** function        
@@ -21,10 +19,10 @@ undefined
 |------|------|          
 | prototype | undefined |        
   
-undefined    
-## HTMLElementProto      
+undefined        
+# HTMLElementProto      
   
 **exported:** HTMLElement      
 **declaration:** const      
   
-undefined
+undefined      

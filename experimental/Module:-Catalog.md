@@ -1,6 +1,4 @@
-# core/Catalog.js  
-  
-## Catalog      
+# Catalog      
   
 **exported:** default      
 **kind:** object      
@@ -12,14 +10,16 @@
 **Type:** Function[]        
 **kind:** value        
   
-@private      
+@private        
+  
 ### Methods      
   
 #### _make() => {[void](https://developer.mozilla.org/en-US/docs/Web/JavaScript/Reference/Global_Objects/undefined)}        
   
 **kind:** function        
   
-Stores key value pairs and emits events when ever a pair is assigned  @constructs      
+Stores key value pairs and emits events when ever a pair is assigned  @constructs        
+  
   
 #### on(event, listener) => {[Promise](https://developer.mozilla.org/en-US/docs/Web/JavaScript/Reference/Global_Objects/Promise)}        
   
@@ -30,7 +30,8 @@ Stores key value pairs and emits events when ever a pair is assigned  @construct
 | event | [string](https://developer.mozilla.org/en-US/docs/Web/JavaScript/Reference/Global_Objects/String) |        
 | listener | [Function](https://developer.mozilla.org/en-US/docs/Web/JavaScript/Reference/Global_Objects/Function/prototype) |        
   
-gives the ability to register an callback as soon as a event is fired      
+gives the ability to register an callback as soon as a event is fired        
+  
   
 #### add(key, value) => {[void](https://developer.mozilla.org/en-US/docs/Web/JavaScript/Reference/Global_Objects/undefined)}        
   
@@ -41,6 +42,7 @@ gives the ability to register an callback as soon as a event is fired
 | key | [string](https://developer.mozilla.org/en-US/docs/Web/JavaScript/Reference/Global_Objects/String) |        
 | value | * |        
   
-assigns a new pair      
+assigns a new pair        
   
-@namespace
+  
+@namespace      

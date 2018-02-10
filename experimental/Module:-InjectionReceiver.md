@@ -1,6 +1,4 @@
-# core/InjectionReceiver.js  
-  
-## InjectionReceiver      
+# InjectionReceiver      
   
 **exported:** default      
 **kind:** object      
@@ -11,14 +9,16 @@
   
 **kind:** value        
   
-undefined      
+undefined        
+  
 ### Methods      
   
 #### constructor() => {?}        
   
 **kind:** function        
   
-undefined      
+undefined        
+  
   
 #### inject(original, injected) => {?}        
   
@@ -29,7 +29,8 @@ undefined
 | original | undefined |        
 | injected | undefined |        
   
-undefined      
+undefined        
+  
   
 #### injected(object) => {?}        
   
@@ -39,6 +40,7 @@ undefined
 |------|------|          
 | object | undefined |        
   
-undefined      
+undefined        
   
-undefined
+  
+undefined      

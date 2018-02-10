@@ -1,10 +1,8 @@
-# core/async.js  
-  
-##         
+#         
   
   
-@module core/async    
-## async(callback) => {[void](https://developer.mozilla.org/en-US/docs/Web/JavaScript/Reference/Global_Objects/undefined)}      
+@module core/async        
+# async(callback) => {[void](https://developer.mozilla.org/en-US/docs/Web/JavaScript/Reference/Global_Objects/undefined)}      
   
 **exported:** default      
 **kind:** function      
@@ -14,4 +12,4 @@
 |------|------|        
 | callback | [Function](https://developer.mozilla.org/en-US/docs/Web/JavaScript/Reference/Global_Objects/Function/prototype) |      
   
-[default] Executes the callback function as a microtask.
+[default] Executes the callback function as a microtask.      

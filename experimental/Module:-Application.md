@@ -1,12 +1,10 @@
-# core/Application.js  
-  
-## EventTarget        
+# EventTarget        
   
 **Type:** default        
 **kind:** import        
   
   
-## Application      
+# Application      
   
 **exported:** default      
 **kind:** object      
@@ -18,34 +16,39 @@
 **Type:** [string](https://developer.mozilla.org/en-US/docs/Web/JavaScript/Reference/Global_Objects/String)        
 **kind:** value        
   
-Name of this application so other components can identify the application.      
+Name of this application so other components can identify the application.        
+  
 #### version        
   
 **Type:** [string](https://developer.mozilla.org/en-US/docs/Web/JavaScript/Reference/Global_Objects/String)        
 **kind:** value        
   
-Some components may need to know the version of this applicaion.      
+Some components may need to know the version of this applicaion.        
+  
 #### author        
   
 **Type:** [string](https://developer.mozilla.org/en-US/docs/Web/JavaScript/Reference/Global_Objects/String)        
 **kind:** value        
   
   
-#### __proto__        
   
-**Type:** [EventTarget](core/EventTarget.js#EventTarget)        
+#### \_\_proto\_\_        
+  
+**Type:** [EventTarget](Module:-EventTarget.md#EventTarget)        
 **kind:** value        
   
-[__proto__ description]      
+[\_\_proto\_\_ description]        
+  
 ### Methods      
   
-#### constructor() => {[Application](core/Application.js#Application)}        
+#### constructor() => {[Application](Module:-Application.md#Application)}        
   
 **kind:** function        
   
-Constructs the Application prototype.      
+Constructs the Application prototype.        
   
-#### _make(args) => {[Application](core/Application.js#Application)}        
+  
+#### _make(args) => {[Application](Module:-Application.md#Application)}        
   
 **kind:** function        
   
@@ -53,13 +56,15 @@ Constructs the Application prototype.
 |------|------|          
 | args | any[] |        
   
-@deprecated Do not use any more. @see module:core/Application~Application.constructor      
+@deprecated Do not use any more. @see module:core/Application~Application.constructor        
+  
   
 #### init() => {[void](https://developer.mozilla.org/en-US/docs/Web/JavaScript/Reference/Global_Objects/undefined)}        
   
 **kind:** function        
   
-Initializes this application, default interface for components and modules.      
+Initializes this application, default interface for components and modules.        
+  
   
 #### terminate(reason) => {[void](https://developer.mozilla.org/en-US/docs/Web/JavaScript/Reference/Global_Objects/undefined)}        
   
@@ -69,6 +74,7 @@ Initializes this application, default interface for components and modules.
 |------|------|          
 | reason | [string](https://developer.mozilla.org/en-US/docs/Web/JavaScript/Reference/Global_Objects/String) |        
   
-This function will try to terminate the application by emitting the termination event.      
+This function will try to terminate the application by emitting the termination event.        
   
-This prototype provides a base construct for the core of an ECMAScript applicaion
+  
+This prototype provides a base construct for the core of an ECMAScript applicaion      
