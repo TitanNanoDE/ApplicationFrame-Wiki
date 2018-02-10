@@ -92,7 +92,7 @@ undefined
   
 ### \_\_proto\_\_        
   
-**Type:** [EventTarget](./Module:-EventTarget.md#EventTarget)        
+**Type:** [EventTarget](./Module:-EventTarget#eventtarget)        
 **kind:** value        
   
 undefined        

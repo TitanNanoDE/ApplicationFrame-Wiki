@@ -34,21 +34,21 @@ Some components may need to know the version of this applicaion.
   
 ### \_\_proto\_\_        
   
-**Type:** [EventTarget](./Module:-EventTarget.md#EventTarget)        
+**Type:** [EventTarget](./Module:-EventTarget#eventtarget)        
 **kind:** value        
   
 [\_\_proto\_\_ description]        
   
 ## Methods      
   
-### constructor() => {[Application](./Module:-Application.md#Application)}        
+### constructor() => {[Application](./Module:-Application#application)}        
   
 **kind:** function        
   
 Constructs the Application prototype.        
   
   
-### _make(args) => {[Application](./Module:-Application.md#Application)}        
+### _make(args) => {[Application](./Module:-Application#application)}        
   
 **kind:** function        
   
