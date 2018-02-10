@@ -76,14 +76,14 @@ removes angulars hashKey property from an object
   
 ### \_\_proto\_\_          
   
-**Type:** [EventTarget](Module:-EventTarget.md#EventTarget)          
+**Type:** [EventTarget](./Module:-EventTarget.md#EventTarget)          
 **kind:** value          
   
 undefined          
   
 ## Methods        
   
-### constructor(url, config) => {[NetworkRequest](Module:-NetworkRequest.md#NetworkRequest)}          
+### constructor(url, config) => {[NetworkRequest](./Module:-NetworkRequest.md#NetworkRequest)}          
   
 **kind:** function          
   
@@ -106,7 +106,7 @@ The constructor for the NetworkRequest. It simply sets up the properties.
 [_make description]  @deprecated use the constructor          
   
   
-### body(data) => {[NetworkRequest](Module:-NetworkRequest.md#NetworkRequest)}          
+### body(data) => {[NetworkRequest](./Module:-NetworkRequest.md#NetworkRequest)}          
   
 **kind:** function          
   
@@ -117,7 +117,7 @@ The constructor for the NetworkRequest. It simply sets up the properties.
 this method will set the given object as the request body.          
   
   
-### headers(headers) => {[NetworkRequest](Module:-NetworkRequest.md#NetworkRequest)}          
+### headers(headers) => {[NetworkRequest](./Module:-NetworkRequest.md#NetworkRequest)}          
   
 **kind:** function          
   
@@ -128,7 +128,7 @@ this method will set the given object as the request body.
 This method will set the request headers, in case custom headers are required.          
   
   
-### setHeader(key, value) => {[NetworkRequest](Module:-NetworkRequest.md#NetworkRequest)}          
+### setHeader(key, value) => {[NetworkRequest](./Module:-NetworkRequest.md#NetworkRequest)}          
   
 **kind:** function          
   

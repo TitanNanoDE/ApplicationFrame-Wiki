@@ -20,7 +20,7 @@
   
 ## Methods      
   
-### constructor() => {[EventTarget](Module:-EventTarget.md#EventTarget)}        
+### constructor() => {[EventTarget](./Module:-EventTarget.md#EventTarget)}        
   
 **kind:** function        
   
