@@ -1,9 +1,3 @@
-# async        
-  
-**Type:** default        
-**kind:** import        
-  
-  
 # EventTarget      
   
 **exported:** default      
@@ -11,27 +5,27 @@
 **declaration:** const      
 ## Properties      
   
-### _listeners        
+### 🚫 _listeners        
   
-**Type:** Object        
+**Type:** [Object](https://developer.mozilla.org/en-US/docs/Web/JavaScript/Reference/Global_Objects/Object)        
 **kind:** value        
   
   
   
 ## Methods      
   
-### constructor() => {[EventTarget](./Module:-EventTarget#eventtarget)}        
+### constructor() => {[EventTarget](./Module:-core::EventTarget#eventtarget)}        
   
 **kind:** function        
   
-@constructs        
   
   
-### _make() => {this}        
+  
+### ~~_make() => {this}~~        
   
 **kind:** function        
   
-@deprecated Do not use the make constructors        
+Do not use the make constructors        
   
   
 ### on(type, listener) => {[void](https://developer.mozilla.org/en-US/docs/Web/JavaScript/Reference/Global_Objects/undefined)}        
@@ -70,4 +64,4 @@ emmits a new event on this object
 removes a previously attached listener function.        
   
   
-undefined      
+  

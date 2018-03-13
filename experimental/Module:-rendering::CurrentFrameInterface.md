@@ -1,13 +1,26 @@
-# InjectionReceiver      
+# CurrentFrameInterface      
   
 **exported:** default      
 **kind:** object      
 **declaration:** const      
 ## Properties      
   
-### _injectedObjects        
+### _startTime        
   
+**Type:** number        
 **kind:** value        
+  
+undefined        
+  
+### _maxFrameDuration        
+  
+**Type:** number        
+**kind:** value        
+  
+undefined        
+  
+### INTERUPT_CURRENT_TASK        
+  
   
 undefined        
   
@@ -17,28 +30,16 @@ undefined
   
 **kind:** function        
   
-undefined        
-  
-  
-### inject(original, injected) => {?}        
-  
-**kind:** function        
-  
 | Name | Type |          
 |------|------|          
-| original | undefined |        
-| injected | undefined |        
+| undefined | undefined |        
   
 undefined        
   
   
-### injected(object) => {?}        
+### ttl() => {?}        
   
 **kind:** function        
-  
-| Name | Type |          
-|------|------|          
-| object | undefined |        
   
 undefined        
   

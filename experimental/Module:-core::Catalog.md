@@ -5,12 +5,12 @@
 **declaration:** let      
 ## Properties      
   
-### _listeners        
+### 🚫 _listeners        
   
-**Type:** Function[]        
+**Type:** [Array](https://developer.mozilla.org/en-US/docs/Web/JavaScript/Reference/Global_Objects/Array).&lt;[Function](https://developer.mozilla.org/en-US/docs/Web/JavaScript/Reference/Global_Objects/Function/prototype)&gt;        
 **kind:** value        
   
-@private        
+  
   
 ## Methods      
   
@@ -18,7 +18,7 @@
   
 **kind:** function        
   
-Stores key value pairs and emits events when ever a pair is assigned  @constructs        
+Stores key value pairs and emits events when ever a pair is assigned        
   
   
 ### on(event, listener) => {[Promise](https://developer.mozilla.org/en-US/docs/Web/JavaScript/Reference/Global_Objects/Promise)}        
@@ -45,4 +45,4 @@ gives the ability to register an callback as soon as a event is fired
 assigns a new pair        
   
   
-@namespace      
+  
