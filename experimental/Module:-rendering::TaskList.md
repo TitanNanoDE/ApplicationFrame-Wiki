@@ -3,12 +3,15 @@
 **exported:** default      
 **kind:** object      
 **declaration:** let      
+  
+  
 ## Properties      
   
 ### tasks        
   
-**Type:** [Array](https://developer.mozilla.org/en-US/docs/Web/JavaScript/Reference/Global_Objects/Array)        
+**Type:**  id: *, work: Function         
 **kind:** value        
+  
   
   
   
@@ -19,23 +22,24 @@
   
   
   
-## Methods      
   
-### last() => {?}        
+### last        
   
 **Type:**  id: string, work: Function         
-**kind:** function        
+**kind:** value        
   
   
   
   
-### length() => {?}        
+### length        
   
-**Type:** number        
-**kind:** function        
+**Type:** [number](https://developer.mozilla.org/en-US/docs/Web/JavaScript/Reference/Global_Objects/Number)        
+**kind:** value        
   
   
   
+  
+## Methods      
   
 ### constructor() => {[TaskList](./Module:-rendering::TaskList#tasklist)}        
   
@@ -44,64 +48,70 @@
 Render TaskList to manage rendertaks and optionally track duplicates by ids.        
   
   
-### push(task, [id]) => {[void](https://developer.mozilla.org/en-US/docs/Web/JavaScript/Reference/Global_Objects/undefined)}        
+  
+### push(task, [id]) => {[undefined](https://developer.mozilla.org/en-US/docs/Web/JavaScript/Reference/Global_Objects/undefined)}        
   
 **kind:** function        
-  
-| Name | Type |          
-|------|------|          
-| task | [Function](https://developer.mozilla.org/en-US/docs/Web/JavaScript/Reference/Global_Objects/Function/prototype) |        
-| [id] | string|number|null |        
   
 adds a new item to the task list.        
   
-  
-### unshift(task, ) => {?}        
-  
-**kind:** function        
-  
-| Name | Type |          
-|------|------|          
-| task | undefined |        
-| undefined | undefined |        
-  
-undefined        
+| Name | Type | Description |          
+|------|------|-------------|          
+| task | [Function](https://developer.mozilla.org/en-US/docs/Web/JavaScript/Reference/Global_Objects/Function/prototype) | the task to add to the list |        
+| [id] | * | the id of this tasks. If provided no task with the same id can be added again. |        
   
   
-### flush() => {?}        
+  
+### unshift(task, [id=null]) => {[undefined](https://developer.mozilla.org/en-US/docs/Web/JavaScript/Reference/Global_Objects/undefined)}        
   
 **kind:** function        
   
-undefined        
+adds a new task to the beginning of the list        
+  
+| Name | Type | Description |          
+|------|------|-------------|          
+| task | Function} |      [description] |        
+| [id=null] | * | [description] |        
   
   
-### filter(callback) => {?}        
   
-**kind:** function        
-  
-| Name | Type |          
-|------|------|          
-| callback | undefined |        
-  
-undefined        
-  
-  
-### run() => {?}        
+### flush() => {[undefined](https://developer.mozilla.org/en-US/docs/Web/JavaScript/Reference/Global_Objects/undefined)}        
   
 **kind:** function        
   
-| Name | Type |          
-|------|------|          
-| undefined | undefined |        
+clears the task list        
   
-undefined        
+  
+  
+### filter(callback) => {[undefined](https://developer.mozilla.org/en-US/docs/Web/JavaScript/Reference/Global_Objects/undefined)}        
+  
+**kind:** function        
+  
+Filters out tasks that do not satisfy the condition.        
+  
+| Name | Type | Description |          
+|------|------|-------------|          
+| callback | [Function](https://developer.mozilla.org/en-US/docs/Web/JavaScript/Reference/Global_Objects/Function/prototype) |   |        
+  
+  
+  
+### run(args) => {[undefined](https://developer.mozilla.org/en-US/docs/Web/JavaScript/Reference/Global_Objects/undefined)}        
+  
+**kind:** function        
+  
+Runs all tasks but keeps tasks, which didn't complete, in the list.        
+  
+| Name | Type | Description |          
+|------|------|-------------|          
+| args | ...* | arguments for the task execution |        
+  
   
   
 ### getAll() => {?}        
   
 **kind:** function        
   
-undefined        
   
   
-@lends module:RenderEngine.TaskList.prototype      
+  
+  

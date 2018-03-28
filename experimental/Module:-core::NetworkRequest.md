@@ -3,22 +3,26 @@
 **kind:** function        
 **declaration:** const        
   
-| Name | Type |          
-|------|------|          
-| object | [Object](https://developer.mozilla.org/en-US/docs/Web/JavaScript/Reference/Global_Objects/Object) |        
-  
 removes angulars hashKey property from an object        
+  
+| Name | Type | Description |          
+|------|------|-------------|          
+| object | [Object](https://developer.mozilla.org/en-US/docs/Web/JavaScript/Reference/Global_Objects/Object) | the object to operate on |        
+  
 # NetworkRequest      
   
 **exported:** default      
 **kind:** object      
 **declaration:** const      
+  
+A network request      
 ## Properties      
   
 ### 🚫 _body        
   
 **Type:** [Object](https://developer.mozilla.org/en-US/docs/Web/JavaScript/Reference/Global_Objects/Object)        
 **kind:** object        
+  
   
   
   
@@ -29,10 +33,12 @@ removes angulars hashKey property from an object
   
   
   
+  
 ### type        
   
 **Type:** [string](https://developer.mozilla.org/en-US/docs/Web/JavaScript/Reference/Global_Objects/String)        
 **kind:** value        
+  
   
   
   
@@ -43,10 +49,12 @@ removes angulars hashKey property from an object
   
   
   
+  
 ### url        
   
 **Type:** [string](https://developer.mozilla.org/en-US/docs/Web/JavaScript/Reference/Global_Objects/String)        
 **kind:** value        
+  
   
   
   
@@ -57,6 +65,7 @@ removes angulars hashKey property from an object
   
   
   
+  
 ### completed        
   
 **Type:** Boolean        
@@ -64,10 +73,12 @@ removes angulars hashKey property from an object
   
 [completed description]        
   
+  
 ### \_\_proto\_\_        
   
 **Type:** [EventTarget](./Module:-core::EventTarget#eventtarget)        
 **kind:** value        
+  
   
   
   
@@ -77,69 +88,75 @@ removes angulars hashKey property from an object
   
 **kind:** function        
   
-| Name | Type |          
-|------|------|          
-| url | [string](https://developer.mozilla.org/en-US/docs/Web/JavaScript/Reference/Global_Objects/String) |        
-| config | [Object](https://developer.mozilla.org/en-US/docs/Web/JavaScript/Reference/Global_Objects/Object) |        
-  
 The constructor for the NetworkRequest. It simply sets up the properties.        
+  
+| Name | Type | Description |          
+|------|------|-------------|          
+| url | [string](https://developer.mozilla.org/en-US/docs/Web/JavaScript/Reference/Global_Objects/String) | the url this request should be made to |        
+| config | [Object](https://developer.mozilla.org/en-US/docs/Web/JavaScript/Reference/Global_Objects/Object) | addintional configuartion for the request |        
+  
   
   
 ### ~~_make(args) => {[void](https://developer.mozilla.org/en-US/docs/Web/JavaScript/Reference/Global_Objects/undefined)}~~        
   
 **kind:** function        
   
-| Name | Type |          
-|------|------|          
-| args | array |        
-  
 use the constructor        
 [_make description]        
+  
+| Name | Type | Description |          
+|------|------|-------------|          
+| args | array | [description] |        
+  
   
   
 ### body(data) => {[NetworkRequest](./Module:-core::NetworkRequest#networkrequest)}        
   
 **kind:** function        
   
-| Name | Type |          
-|------|------|          
-| data | [Object](https://developer.mozilla.org/en-US/docs/Web/JavaScript/Reference/Global_Objects/Object) |        
-  
 this method will set the given object as the request body.        
+  
+| Name | Type | Description |          
+|------|------|-------------|          
+| data | [Object](https://developer.mozilla.org/en-US/docs/Web/JavaScript/Reference/Global_Objects/Object) | body data for this request |        
+  
   
   
 ### headers(headers) => {[NetworkRequest](./Module:-core::NetworkRequest#networkrequest)}        
   
 **kind:** function        
   
-| Name | Type |          
-|------|------|          
-| headers | [Object](https://developer.mozilla.org/en-US/docs/Web/JavaScript/Reference/Global_Objects/Object) |        
-  
 This method will set the request headers, in case custom headers are required.        
+  
+| Name | Type | Description |          
+|------|------|-------------|          
+| headers | [Object](https://developer.mozilla.org/en-US/docs/Web/JavaScript/Reference/Global_Objects/Object) | a object with all header properties for this request |        
+  
   
   
 ### setHeader(key, value) => {[NetworkRequest](./Module:-core::NetworkRequest#networkrequest)}        
   
 **kind:** function        
   
-| Name | Type |          
-|------|------|          
-| key | [string](https://developer.mozilla.org/en-US/docs/Web/JavaScript/Reference/Global_Objects/String) |        
-| value | [string](https://developer.mozilla.org/en-US/docs/Web/JavaScript/Reference/Global_Objects/String) |        
-  
 Sets a single header for this request.        
+  
+| Name | Type | Description |          
+|------|------|-------------|          
+| key | [string](https://developer.mozilla.org/en-US/docs/Web/JavaScript/Reference/Global_Objects/String) | the header key |        
+| value | [string](https://developer.mozilla.org/en-US/docs/Web/JavaScript/Reference/Global_Objects/String) | the header value |        
+  
   
   
 ### onReady(fn) => {[void](https://developer.mozilla.org/en-US/docs/Web/JavaScript/Reference/Global_Objects/undefined)}        
   
 **kind:** function        
   
-| Name | Type |          
-|------|------|          
-| fn | [function](https://developer.mozilla.org/en-US/docs/Web/JavaScript/Reference/Global_Objects/Function/prototype) |        
-  
 sets a callback for when the request is ready        
+  
+| Name | Type | Description |          
+|------|------|-------------|          
+| fn | [function](https://developer.mozilla.org/en-US/docs/Web/JavaScript/Reference/Global_Objects/Function/prototype) | a callback function as soon as the data is ready |        
+  
   
   
 ### send() => {[Promise](https://developer.mozilla.org/en-US/docs/Web/JavaScript/Reference/Global_Objects/Promise)}        
@@ -149,4 +166,4 @@ sets a callback for when the request is ready
 This will actually create the network connection and initiate the request.        
   
   
-A network request      
+  

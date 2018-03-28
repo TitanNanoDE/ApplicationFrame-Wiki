@@ -1,24 +1,26 @@
 # nativePrototype(nativeConstructor) => {[Object](https://developer.mozilla.org/en-US/docs/Web/JavaScript/Reference/Global_Objects/Object)}          
   
-**exported:** true          
+**exported:** nativePrototype          
 **kind:** function          
 **declaration:** const          
   
-| Name | Type |            
-|------|------|            
-| nativeConstructor | [Function](https://developer.mozilla.org/en-US/docs/Web/JavaScript/Reference/Global_Objects/Function/prototype) |          
-  
 transforms an native constructor into a normal ECMAScript prototype object          
+  
+| Name | Type | Description |            
+|------|------|-------------|            
+| nativeConstructor | [Function](https://developer.mozilla.org/en-US/docs/Web/JavaScript/Reference/Global_Objects/Function/prototype) |   |          
+  
 # prepareConstructor(prototype) => {?}        
   
-**exported:** true        
+**exported:** prepareConstructor        
 **kind:** function        
 **declaration:** const        
   
-| Name | Type |          
-|------|------|          
-| prototype | ? |        
   
+  
+| Name | Type | Description |          
+|------|------|-------------|          
+| prototype | ? |   |        
   
 # HTMLElementProto      
   
@@ -27,3 +29,4 @@ transforms an native constructor into a normal ECMAScript prototype object
 **declaration:** const      
   
 A drop-in replacement for the HTMLElement construct function      
+  

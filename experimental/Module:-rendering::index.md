@@ -1,247 +1,257 @@
-#                               
+# preRenderHooks                        
   
-  
-@module RenderEngine                              
-# preRenderHooks                            
-  
-**Type:** Function[]                            
-**kind:** value                            
-**declaration:** let                            
-  
-  
-# postRenderHooks                          
-  
-**Type:** Function[]                          
-**kind:** value                          
-**declaration:** let                          
-  
-  
-# currentFrameInterface                        
-  
-**Type:** [CurrentFrameInterface](./Module:-rendering::CurrentFrameInterface#currentframeinterface)                        
+**Type:** [Array](https://developer.mozilla.org/en-US/docs/Web/JavaScript/Reference/Global_Objects/Array).&lt;[Function](https://developer.mozilla.org/en-US/docs/Web/JavaScript/Reference/Global_Objects/Function/prototype)&gt;                        
 **kind:** value                        
 **declaration:** let                        
   
   
-# frameBuffer                      
   
-**Type:** [Array](https://developer.mozilla.org/en-US/docs/Web/JavaScript/Reference/Global_Objects/Array)                      
+# postRenderHooks                      
+  
+**Type:** [Array](https://developer.mozilla.org/en-US/docs/Web/JavaScript/Reference/Global_Objects/Array).&lt;[Function](https://developer.mozilla.org/en-US/docs/Web/JavaScript/Reference/Global_Objects/Function/prototype)&gt;                      
 **kind:** value                      
-**declaration:** const                      
+**declaration:** let                      
   
-undefined                      
-# active                    
   
-**Type:** [boolean](https://developer.mozilla.org/en-US/docs/Web/JavaScript/Reference/Global_Objects/Boolean)                    
+  
+# currentFrameInterface                    
+  
+**Type:** [CurrentFrameInterface](./Module:-rendering::CurrentFrameInterface#currentframeinterface)                    
 **kind:** value                    
 **declaration:** let                    
   
   
-# getNow() => {?}                  
   
-**kind:** function                  
+# frameBuffer                  
+  
+**Type:** [Array](https://developer.mozilla.org/en-US/docs/Web/JavaScript/Reference/Global_Objects/Array).&lt;[Frame](./Module:-rendering::Frame#frame)&gt;                  
+**kind:** value                  
 **declaration:** const                  
   
-undefined                  
-# renderConfig                
   
-**kind:** object                
-**declaration:** const                
-## Properties                
   
-### lightray                  
+# active                
   
-**Type:** [boolean](https://developer.mozilla.org/en-US/docs/Web/JavaScript/Reference/Global_Objects/Boolean)                  
-**kind:** value                  
-  
-undefined                  
-  
-## Methods                
+**Type:** [boolean](https://developer.mozilla.org/en-US/docs/Web/JavaScript/Reference/Global_Objects/Boolean)                
+**kind:** value                
+**declaration:** let                
   
   
   
-undefined                
-# renderCycle(startTime) => {[void](https://developer.mozilla.org/en-US/docs/Web/JavaScript/Reference/Global_Objects/undefined)}              
+# getNow() => {?}              
   
 **kind:** function              
-**declaration:** let              
+**declaration:** const              
   
-| Name | Type |                
-|------|------|                
-| startTime | number |              
   
-performs all render tasks from one frame. This is one render cycle.              
-# scheduleNextFrame() => {[void](https://developer.mozilla.org/en-US/docs/Web/JavaScript/Reference/Global_Objects/undefined)}            
   
-**kind:** function            
-**declaration:** let            
-  
-Schedules a new render cycle in the browsers rendering engine. The cycle is performed as soon as the browser is ready to render a new frame.            
-# RenderEngine          
-  
-**exported:** true          
-**kind:** object          
-**declaration:** const          
-## Properties          
-  
-### _currentFrame            
-  
-**Type:** number            
-**kind:** value            
-  
-undefined            
-  
-### performance            
+# renderConfig            
   
 **kind:** object            
-#### Properties            
+**declaration:** const            
   
-##### fps              
   
-**Type:** number              
+## Properties            
+  
+### lightray              
+  
+**Type:** [boolean](https://developer.mozilla.org/en-US/docs/Web/JavaScript/Reference/Global_Objects/Boolean)              
 **kind:** value              
   
-undefined              
   
-##### lastFrameDuration              
   
-**Type:** number              
-**kind:** value              
   
-undefined              
+## Methods            
   
-##### renderedFrames              
   
-**Type:** number              
-**kind:** value              
   
-undefined              
+# renderCycle(startTime) => {[undefined](https://developer.mozilla.org/en-US/docs/Web/JavaScript/Reference/Global_Objects/undefined)}          
   
-#### Methods            
+**kind:** function          
+**declaration:** let          
   
+performs all render tasks from one frame. This is one render cycle.          
   
+| Name | Type | Description |            
+|------|------|-------------|            
+| startTime | [number](https://developer.mozilla.org/en-US/docs/Web/JavaScript/Reference/Global_Objects/Number) | the time the render cycle started |          
   
-undefined            
+# scheduleNextFrame() => {[undefined](https://developer.mozilla.org/en-US/docs/Web/JavaScript/Reference/Global_Objects/undefined)}        
   
-## Methods          
+**kind:** function        
+**declaration:** let        
   
-### lightray() => {?}            
+Schedules a new render cycle in the browsers rendering engine. The cycle is performed as soon as the browser is ready to render a new frame.        
   
-**kind:** function            
+# RenderEngine      
   
-undefined            
+**exported:** RenderEngine      
+**kind:** object      
+**declaration:** const      
   
+RenderEngine Singleton      
+## Properties      
   
-### lightray(value) => {?}            
+### 🚫 _currentFrame        
   
-**kind:** function            
+**Type:** [number](https://developer.mozilla.org/en-US/docs/Web/JavaScript/Reference/Global_Objects/Number)        
+**kind:** value        
   
-| Name | Type |              
-|------|------|              
-| value | undefined |            
   
-undefined            
   
   
-### addPreRenderHook(f) => {[Function](https://developer.mozilla.org/en-US/docs/Web/JavaScript/Reference/Global_Objects/Function/prototype)}            
+### lightray        
   
-**kind:** function            
+**Type:** [boolean](https://developer.mozilla.org/en-US/docs/Web/JavaScript/Reference/Global_Objects/Boolean)        
+**kind:** value        
   
-| Name | Type |              
-|------|------|              
-| f | [Function](https://developer.mozilla.org/en-US/docs/Web/JavaScript/Reference/Global_Objects/Function/prototype) |            
   
   
   
+### lightray        
   
-### addPostRenderHook(f) => {[Function](https://developer.mozilla.org/en-US/docs/Web/JavaScript/Reference/Global_Objects/Function/prototype)}            
+**kind:** setter        
   
-**kind:** function            
   
-| Name | Type |              
-|------|------|              
-| f | [Function](https://developer.mozilla.org/en-US/docs/Web/JavaScript/Reference/Global_Objects/Function/prototype) |            
   
   
+### performance        
   
+**kind:** object        
   
-### removePreRenderHook(f) => {*}            
   
-**kind:** function            
+#### Properties        
   
-| Name | Type |              
-|------|------|              
-| f | [Function](https://developer.mozilla.org/en-US/docs/Web/JavaScript/Reference/Global_Objects/Function/prototype) |            
+##### fps          
   
-Removes a previously added pre render hook            
+**Type:** [number](https://developer.mozilla.org/en-US/docs/Web/JavaScript/Reference/Global_Objects/Number)          
+**kind:** value          
   
   
-### removePostRenderHook(f) => {*}            
   
-**kind:** function            
   
-| Name | Type |              
-|------|------|              
-| f | [Function](https://developer.mozilla.org/en-US/docs/Web/JavaScript/Reference/Global_Objects/Function/prototype) |            
+##### lastFrameDuration          
   
-Removes a previously added post render hook            
+**Type:** [number](https://developer.mozilla.org/en-US/docs/Web/JavaScript/Reference/Global_Objects/Number)          
+**kind:** value          
   
   
-### schedulePreRenderTask(f, [id]) => {[Function](https://developer.mozilla.org/en-US/docs/Web/JavaScript/Reference/Global_Objects/Function/prototype)}            
   
-**kind:** function            
   
-| Name | Type |              
-|------|------|              
-| f | [Function](https://developer.mozilla.org/en-US/docs/Web/JavaScript/Reference/Global_Objects/Function/prototype) |            
-| [id] | [string](https://developer.mozilla.org/en-US/docs/Web/JavaScript/Reference/Global_Objects/String) |            
+##### renderedFrames          
   
+**Type:** [number](https://developer.mozilla.org/en-US/docs/Web/JavaScript/Reference/Global_Objects/Number)          
+**kind:** value          
   
   
   
-### scheduleRenderTask(f, [id]) => {[Function](https://developer.mozilla.org/en-US/docs/Web/JavaScript/Reference/Global_Objects/Function/prototype)}            
   
-**kind:** function            
+#### Methods        
   
-| Name | Type |              
-|------|------|              
-| f | [Function](https://developer.mozilla.org/en-US/docs/Web/JavaScript/Reference/Global_Objects/Function/prototype) |            
-| [id] | [string](https://developer.mozilla.org/en-US/docs/Web/JavaScript/Reference/Global_Objects/String) |            
   
   
   
+## Methods      
   
-### schedulePostRenderTask(f) => {[Function](https://developer.mozilla.org/en-US/docs/Web/JavaScript/Reference/Global_Objects/Function/prototype)}            
+### addPreRenderHook(f) => {[Function](https://developer.mozilla.org/en-US/docs/Web/JavaScript/Reference/Global_Objects/Function/prototype)}        
   
-**kind:** function            
+**kind:** function        
   
-| Name | Type |              
-|------|------|              
-| f | [Function](https://developer.mozilla.org/en-US/docs/Web/JavaScript/Reference/Global_Objects/Function/prototype) |            
   
   
+| Name | Type | Description |          
+|------|------|-------------|          
+| f | [Function](https://developer.mozilla.org/en-US/docs/Web/JavaScript/Reference/Global_Objects/Function/prototype) | a hook function to execute before each render cycle |        
   
   
-### renderFrame() => {[void](https://developer.mozilla.org/en-US/docs/Web/JavaScript/Reference/Global_Objects/undefined)}            
   
-**kind:** function            
+### addPostRenderHook(f) => {[Function](https://developer.mozilla.org/en-US/docs/Web/JavaScript/Reference/Global_Objects/Function/prototype)}        
   
-Forces the engine to render a new frame even if there are no tasks            
+**kind:** function        
   
   
-### skipFrame() => {?}            
   
-**kind:** function            
+| Name | Type | Description |          
+|------|------|-------------|          
+| f | [Function](https://developer.mozilla.org/en-US/docs/Web/JavaScript/Reference/Global_Objects/Function/prototype) | a hook function to execute after each render cycle |        
   
-undefined            
   
   
-RenderEngine Singleton          
-#         
+### removePreRenderHook(f) => {*}        
   
+**kind:** function        
   
-init zero frame        
-#       
+Removes a previously added pre render hook        
   
+| Name | Type | Description |          
+|------|------|-------------|          
+| f | [Function](https://developer.mozilla.org/en-US/docs/Web/JavaScript/Reference/Global_Objects/Function/prototype) | the function which was previously added |        
   
-@member {module:RenderEngine~RenderEngine} RenderEngine @static      
+  
+  
+### removePostRenderHook(f) => {*}        
+  
+**kind:** function        
+  
+Removes a previously added post render hook        
+  
+| Name | Type | Description |          
+|------|------|-------------|          
+| f | [Function](https://developer.mozilla.org/en-US/docs/Web/JavaScript/Reference/Global_Objects/Function/prototype) | the function which was previously added |        
+  
+  
+  
+### schedulePreRenderTask(f, [id]) => {[Function](https://developer.mozilla.org/en-US/docs/Web/JavaScript/Reference/Global_Objects/Function/prototype)}        
+  
+**kind:** function        
+  
+  
+  
+| Name | Type | Description |          
+|------|------|-------------|          
+| f | [Function](https://developer.mozilla.org/en-US/docs/Web/JavaScript/Reference/Global_Objects/Function/prototype) | the task to preform in the next render cycle. |        
+| [id] | [string](https://developer.mozilla.org/en-US/docs/Web/JavaScript/Reference/Global_Objects/String) | optional task id |        
+  
+  
+  
+### scheduleRenderTask(f, [id]) => {[Function](https://developer.mozilla.org/en-US/docs/Web/JavaScript/Reference/Global_Objects/Function/prototype)}        
+  
+**kind:** function        
+  
+  
+  
+| Name | Type | Description |          
+|------|------|-------------|          
+| f | [Function](https://developer.mozilla.org/en-US/docs/Web/JavaScript/Reference/Global_Objects/Function/prototype) | the task to preform in the next render cycle. |        
+| [id] | [string](https://developer.mozilla.org/en-US/docs/Web/JavaScript/Reference/Global_Objects/String) | optional task id |        
+  
+  
+  
+### schedulePostRenderTask(f) => {[Function](https://developer.mozilla.org/en-US/docs/Web/JavaScript/Reference/Global_Objects/Function/prototype)}        
+  
+**kind:** function        
+  
+  
+  
+| Name | Type | Description |          
+|------|------|-------------|          
+| f | [Function](https://developer.mozilla.org/en-US/docs/Web/JavaScript/Reference/Global_Objects/Function/prototype) | the task to preform after the next render cycle. |        
+  
+  
+  
+### renderFrame() => {[void](https://developer.mozilla.org/en-US/docs/Web/JavaScript/Reference/Global_Objects/undefined)}        
+  
+**kind:** function        
+  
+Forces the engine to render a new frame even if there are no tasks        
+  
+  
+  
+### skipFrame() => {[RenderEngine](./Module:-rendering::index#renderengine)}        
+  
+**kind:** function        
+  
+skips the current frame and provices scheduling methods for the next frame.        
+  
+  
+  

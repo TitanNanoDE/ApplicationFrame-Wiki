@@ -3,45 +3,52 @@
 **exported:** default      
 **kind:** object      
 **declaration:** const      
+  
+  
 ## Properties      
   
-### _startTime        
+### 🚫 _startTime        
   
-**Type:** number        
+**Type:** [number](https://developer.mozilla.org/en-US/docs/Web/JavaScript/Reference/Global_Objects/Number)        
 **kind:** value        
   
-undefined        
   
-### _maxFrameDuration        
   
-**Type:** number        
+  
+### 🚫 _maxFrameDuration        
+  
+**Type:** [number](https://developer.mozilla.org/en-US/docs/Web/JavaScript/Reference/Global_Objects/Number)        
 **kind:** value        
   
-undefined        
+  
+  
   
 ### INTERUPT_CURRENT_TASK        
   
   
-undefined        
+  
+  
   
 ## Methods      
   
-### constructor() => {?}        
+### constructor(startTime, maxFrameDuration) => {?}        
   
 **kind:** function        
   
-| Name | Type |          
-|------|------|          
-| undefined | undefined |        
-  
-undefined        
   
   
-### ttl() => {?}        
+| Name | Type | Description |          
+|------|------|-------------|          
+| startTime | [number](https://developer.mozilla.org/en-US/docs/Web/JavaScript/Reference/Global_Objects/Number) |    the time the current frame has started rendering |        
+| maxFrameDuration | [number](https://developer.mozilla.org/en-US/docs/Web/JavaScript/Reference/Global_Objects/Number) | the maximum duration |        
+  
+  
+  
+### ttl() => {[number](https://developer.mozilla.org/en-US/docs/Web/JavaScript/Reference/Global_Objects/Number)}        
   
 **kind:** function        
   
-undefined        
+the remaining available render time of the frame        
   
   
-undefined      
+  

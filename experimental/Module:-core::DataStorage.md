@@ -3,56 +3,63 @@
 **kind:** function                
 **declaration:** const                
   
-| Name | Type |                  
-|------|------|                  
-| callback | ? |                
   
-fake then if this should be handed to something that expects a promise                
+  
+| Name | Type | Description |                  
+|------|------|-------------|                  
+| callback | ? |   |                
+  
 # catchHandler(callback) => {?}              
   
 **kind:** function              
 **declaration:** const              
   
-| Name | Type |                
-|------|------|                
-| callback | ? |              
   
-dummy catch in case someone tries to use it              
+  
+| Name | Type | Description |                
+|------|------|-------------|                
+| callback | ? |   |              
+  
 # whenFilled(target) => {?}            
   
 **kind:** function            
 **declaration:** const            
   
-| Name | Type |              
-|------|------|              
-| target | ? |            
   
+  
+| Name | Type | Description |              
+|------|------|-------------|              
+| target | ? |   |            
   
 # whenNext(target) => {?}          
   
 **kind:** function          
 **declaration:** const          
   
-| Name | Type |            
-|------|------|            
-| target | ? |          
   
+  
+| Name | Type | Description |            
+|------|------|-------------|            
+| target | ? |   |          
   
 # once(target) => {?}        
   
 **kind:** function        
 **declaration:** const        
   
-| Name | Type |          
-|------|------|          
-| target | ? |        
   
+  
+| Name | Type | Description |          
+|------|------|-------------|          
+| target | ? |   |        
   
 # DataStorage      
   
 **exported:** default      
 **kind:** object      
 **declaration:** const      
+  
+  
 ## Properties      
   
 ### 🚫 _value        
@@ -62,44 +69,22 @@ dummy catch in case someone tries to use it
   
   
   
+  
 ### 🚫 _filledCallbacks        
   
 **Type:** [Array](https://developer.mozilla.org/en-US/docs/Web/JavaScript/Reference/Global_Objects/Array).&lt;[Function](https://developer.mozilla.org/en-US/docs/Web/JavaScript/Reference/Global_Objects/Function/prototype)&gt;        
-  
-  
-  
-### when        
-  
-**Type:** ?        
 **kind:** value        
   
-| Name | Type |          
-|------|------|          
-| callback | [Function](https://developer.mozilla.org/en-US/docs/Web/JavaScript/Reference/Global_Objects/Function/prototype) |        
   
-Registers a callback which is executed everytime a value is filled into the DataStorage. If the DataStorage is already filled at the point of callback registration, the callback is invoced.        
   
-### once        
   
-**Type:** ?        
+### value        
+  
+**Type:** *        
 **kind:** value        
   
-| Name | Type |          
-|------|------|          
-| callback | [Function](https://developer.mozilla.org/en-US/docs/Web/JavaScript/Reference/Global_Objects/Function/prototype) |        
   
-Registers a one time callback which is executed as soon as the DataStorage has been filled.        
   
-### whenNext        
-  
-**Type:** ?        
-**kind:** value        
-  
-| Name | Type |          
-|------|------|          
-| callback | [Function](https://developer.mozilla.org/en-US/docs/Web/JavaScript/Reference/Global_Objects/Function/prototype) |        
-  
-Registers a one time callback for the next time the DataStorage is filled. This is usefull when waiting for an update.        
   
 ### \_\_proto\_\_        
   
@@ -108,15 +93,8 @@ Registers a one time callback for the next time the DataStorage is filled. This 
   
   
   
+  
 ## Methods      
-  
-### value() => {?}        
-  
-**Type:** *        
-**kind:** function        
-  
-  
-  
   
 ### constructor() => {[DataStorage](./Module:-core::DataStorage#datastorage)}        
   
@@ -125,15 +103,55 @@ Registers a one time callback for the next time the DataStorage is filled. This 
   
   
   
+  
 ### fill(value) => {[undefined](https://developer.mozilla.org/en-US/docs/Web/JavaScript/Reference/Global_Objects/undefined)}        
   
 **kind:** function        
   
-| Name | Type |          
-|------|------|          
-| value | * |        
-  
 [fill description]        
+  
+| Name | Type | Description |          
+|------|------|-------------|          
+| value | * | [description] |        
+  
+  
+  
+### when(callback) => {[undefined](https://developer.mozilla.org/en-US/docs/Web/JavaScript/Reference/Global_Objects/undefined)}        
+  
+**Type:** ?        
+**kind:** function        
+  
+Registers a callback which is executed everytime a value is filled into the DataStorage. If the DataStorage is already filled at the point of callback registration, the callback is invoced.        
+  
+| Name | Type | Description |          
+|------|------|-------------|          
+| callback | [Function](https://developer.mozilla.org/en-US/docs/Web/JavaScript/Reference/Global_Objects/Function/prototype) |   |        
+  
+  
+  
+### once(callback) => {[undefined](https://developer.mozilla.org/en-US/docs/Web/JavaScript/Reference/Global_Objects/undefined)}        
+  
+**Type:** ?        
+**kind:** function        
+  
+Registers a one time callback which is executed as soon as the DataStorage has been filled.        
+  
+| Name | Type | Description |          
+|------|------|-------------|          
+| callback | [Function](https://developer.mozilla.org/en-US/docs/Web/JavaScript/Reference/Global_Objects/Function/prototype) |   |        
+  
+  
+  
+### whenNext(callback) => {[undefined](https://developer.mozilla.org/en-US/docs/Web/JavaScript/Reference/Global_Objects/undefined)}        
+  
+**Type:** ?        
+**kind:** function        
+  
+Registers a one time callback for the next time the DataStorage is filled. This is usefull when waiting for an update.        
+  
+| Name | Type | Description |          
+|------|------|-------------|          
+| callback | [Function](https://developer.mozilla.org/en-US/docs/Web/JavaScript/Reference/Global_Objects/Function/prototype) |   |        
   
   
   
