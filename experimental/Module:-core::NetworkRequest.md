@@ -1,14 +1,3 @@
-# stripHashKey(object) => {[Object](https://developer.mozilla.org/en-US/docs/Web/JavaScript/Reference/Global_Objects/Object)}        
-  
-**kind:** function        
-**declaration:** const        
-  
-removes angulars hashKey property from an object        
-  
-| Name | Type | Description |          
-|------|------|-------------|          
-| object | [Object](https://developer.mozilla.org/en-US/docs/Web/JavaScript/Reference/Global_Objects/Object) | the object to operate on |        
-  
 # NetworkRequest      
   
 **exported:** default      

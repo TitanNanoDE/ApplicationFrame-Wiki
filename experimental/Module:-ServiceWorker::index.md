@@ -1,10 +1,3 @@
-# create                
-  
-**Type:** (prototype: Object) => Object                
-**kind:** value                
-  
-  
-  
 # injectionReceiver              
   
 **exported:** injectionReceiver              

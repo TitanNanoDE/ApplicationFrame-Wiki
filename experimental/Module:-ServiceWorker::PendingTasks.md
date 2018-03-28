@@ -1,11 +1,3 @@
-# pending        
-  
-**Type:** [Array](https://developer.mozilla.org/en-US/docs/Web/JavaScript/Reference/Global_Objects/Array)        
-**kind:** value        
-**declaration:** const        
-  
-  
-  
 # PendingTasks      
   
 **exported:** default      

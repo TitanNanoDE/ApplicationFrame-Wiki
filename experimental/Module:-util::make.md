@@ -1,15 +1,3 @@
-# apply(target, source) => {?}          
-  
-**kind:** function          
-**declaration:** var          
-  
-Internal function to apply one objects propteries to a target object.  @inner          
-  
-| Name | Type | Description |            
-|------|------|-------------|            
-| target | [Object](https://developer.mozilla.org/en-US/docs/Web/JavaScript/Reference/Global_Objects/Object) |   |          
-| source | [Object](https://developer.mozilla.org/en-US/docs/Web/JavaScript/Reference/Global_Objects/Object) |   |          
-  
 # ~~Make(object, prototype) => {[function](https://developer.mozilla.org/en-US/docs/Web/JavaScript/Reference/Global_Objects/Function/prototype)}~~        
   
 **exported:** Make        

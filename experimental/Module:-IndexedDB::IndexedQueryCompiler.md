@@ -1,39 +1,3 @@
-# IndexedQuery        
-  
-**kind:** object        
-**declaration:** const        
-  
-A query object for an indexedDB request.        
-## Properties        
-  
-### name          
-  
-**Type:** [string](https://developer.mozilla.org/en-US/docs/Web/JavaScript/Reference/Global_Objects/String)          
-**kind:** value          
-  
-  
-  
-  
-### rangeStart          
-  
-**Type:** *          
-**kind:** value          
-  
-  
-  
-  
-### rangeEnd          
-  
-**Type:** *          
-**kind:** value          
-  
-  
-  
-  
-## Methods        
-  
-  
-  
 # IndexedQueryCompiler      
   
 **exported:** default      

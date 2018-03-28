@@ -1,14 +1,3 @@
-# onMessageHandler(event) => {?}        
-  
-**kind:** function        
-**declaration:** const        
-  
-  
-  
-| Name | Type | Description |          
-|------|------|-------------|          
-| event | ? |   |        
-  
 # ServiceWorkerEventTarget      
   
 **exported:** default      

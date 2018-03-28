@@ -1,30 +1,3 @@
-# heapObjects                  
-  
-**declaration:** const                  
-  
-  
-  
-# heapObjectsReleased                
-  
-**kind:** object                
-**declaration:** const                
-  
-  
-  
-# heapArrays              
-  
-**declaration:** const              
-  
-  
-  
-# heapArraysReleased            
-  
-**Type:** [Array](https://developer.mozilla.org/en-US/docs/Web/JavaScript/Reference/Global_Objects/Array)            
-**kind:** value            
-**declaration:** const            
-  
-  
-  
 # allocate(typeOrLength, [prototype={}]) => {*}          
   
 **exported:** allocate          

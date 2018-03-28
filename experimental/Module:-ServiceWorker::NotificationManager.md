@@ -1,10 +1,3 @@
-# prototype        
-  
-**Type:** [object Object]&#124;[object Object]        
-**declaration:** const        
-  
-  
-  
 # NotificationManager      
   
 **exported:** default      
