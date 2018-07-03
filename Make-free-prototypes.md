@@ -11,5 +11,5 @@ let instance = Make(Prototype)();
 ```JavaScript
 import Prototype from '../lib/Prototype.js';
 
-let instance Object.create(Prototype).constructor();
+let instance = Object.create(Prototype).constructor();
 ```
