@@ -60,7 +60,15 @@ A network request
 **Type:** Boolean        
 **kind:** value        
   
-[completed description]        
+indicator flag whether or not the request is completed        
+  
+  
+### promise        
+  
+**Type:** [Promise](https://developer.mozilla.org/en-US/docs/Web/JavaScript/Reference/Global_Objects/Promise)        
+**kind:** value        
+  
+  
   
   
 ### \_\_proto\_\_        
@@ -81,9 +89,8 @@ The constructor for the NetworkRequest. It simply sets up the properties.
   
 | Name | Type | Description |          
 |------|------|-------------|          
-| url | [string](https://developer.mozilla.org/en-US/docs/Web/JavaScript/Reference/Global_Objects/String) | the url this request should be made to |        
-| config | [Object](https://developer.mozilla.org/en-US/docs/Web/JavaScript/Reference/Global_Objects/Object) | addintional configuartion for the request |        
-  
+| url | [string](https://developer.mozilla.org/en-US/docs/Web/JavaScript/Reference/Global_Objects/String) | the url this request should be made to |          
+| config | [Object](https://developer.mozilla.org/en-US/docs/Web/JavaScript/Reference/Global_Objects/Object) | addintional configuartion for the request |\n        
   
   
 ### ~~_make(args) => {[void](https://developer.mozilla.org/en-US/docs/Web/JavaScript/Reference/Global_Objects/undefined)}~~        
@@ -95,8 +102,7 @@ use the constructor
   
 | Name | Type | Description |          
 |------|------|-------------|          
-| args | array | [description] |        
-  
+| args | array | [description] |\n        
   
   
 ### body(data) => {[NetworkRequest](./Module:-core::NetworkRequest#networkrequest)}        
@@ -107,8 +113,7 @@ this method will set the given object as the request body.
   
 | Name | Type | Description |          
 |------|------|-------------|          
-| data | [Object](https://developer.mozilla.org/en-US/docs/Web/JavaScript/Reference/Global_Objects/Object) | body data for this request |        
-  
+| data | [Object](https://developer.mozilla.org/en-US/docs/Web/JavaScript/Reference/Global_Objects/Object) | body data for this request |\n        
   
   
 ### headers(headers) => {[NetworkRequest](./Module:-core::NetworkRequest#networkrequest)}        
@@ -119,8 +124,7 @@ This method will set the request headers, in case custom headers are required.
   
 | Name | Type | Description |          
 |------|------|-------------|          
-| headers | [Object](https://developer.mozilla.org/en-US/docs/Web/JavaScript/Reference/Global_Objects/Object) | a object with all header properties for this request |        
-  
+| headers | [Object](https://developer.mozilla.org/en-US/docs/Web/JavaScript/Reference/Global_Objects/Object) | a object with all header properties for this request |\n        
   
   
 ### setHeader(key, value) => {[NetworkRequest](./Module:-core::NetworkRequest#networkrequest)}        
@@ -131,9 +135,8 @@ Sets a single header for this request.
   
 | Name | Type | Description |          
 |------|------|-------------|          
-| key | [string](https://developer.mozilla.org/en-US/docs/Web/JavaScript/Reference/Global_Objects/String) | the header key |        
-| value | [string](https://developer.mozilla.org/en-US/docs/Web/JavaScript/Reference/Global_Objects/String) | the header value |        
-  
+| key | [string](https://developer.mozilla.org/en-US/docs/Web/JavaScript/Reference/Global_Objects/String) | the header key |          
+| value | [string](https://developer.mozilla.org/en-US/docs/Web/JavaScript/Reference/Global_Objects/String) | the header value |\n        
   
   
 ### onReady(fn) => {[void](https://developer.mozilla.org/en-US/docs/Web/JavaScript/Reference/Global_Objects/undefined)}        
@@ -144,8 +147,7 @@ sets a callback for when the request is ready
   
 | Name | Type | Description |          
 |------|------|-------------|          
-| fn | [function](https://developer.mozilla.org/en-US/docs/Web/JavaScript/Reference/Global_Objects/Function/prototype) | a callback function as soon as the data is ready |        
-  
+| fn | [function](https://developer.mozilla.org/en-US/docs/Web/JavaScript/Reference/Global_Objects/Function/prototype) | a callback function as soon as the data is ready |\n        
   
   
 ### send() => {[Promise](https://developer.mozilla.org/en-US/docs/Web/JavaScript/Reference/Global_Objects/Promise)}        
@@ -153,6 +155,14 @@ sets a callback for when the request is ready
 **kind:** function        
   
 This will actually create the network connection and initiate the request.        
+  
+  
+  
+### cancel() => {[undefined](https://developer.mozilla.org/en-US/docs/Web/JavaScript/Reference/Global_Objects/undefined)}        
+  
+**kind:** function        
+  
+cancels an already sent request.        
   
   
   

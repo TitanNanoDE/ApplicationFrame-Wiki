@@ -76,8 +76,7 @@ RenderEngine Singleton
   
 | Name | Type | Description |          
 |------|------|-------------|          
-| f | [Function](https://developer.mozilla.org/en-US/docs/Web/JavaScript/Reference/Global_Objects/Function/prototype) | a hook function to execute before each render cycle |        
-  
+| f | [Function](https://developer.mozilla.org/en-US/docs/Web/JavaScript/Reference/Global_Objects/Function/prototype) | a hook function to execute before each render cycle |\n        
   
   
 ### addPostRenderHook(f) => {[Function](https://developer.mozilla.org/en-US/docs/Web/JavaScript/Reference/Global_Objects/Function/prototype)}        
@@ -88,8 +87,7 @@ RenderEngine Singleton
   
 | Name | Type | Description |          
 |------|------|-------------|          
-| f | [Function](https://developer.mozilla.org/en-US/docs/Web/JavaScript/Reference/Global_Objects/Function/prototype) | a hook function to execute after each render cycle |        
-  
+| f | [Function](https://developer.mozilla.org/en-US/docs/Web/JavaScript/Reference/Global_Objects/Function/prototype) | a hook function to execute after each render cycle |\n        
   
   
 ### removePreRenderHook(f) => {*}        
@@ -100,8 +98,7 @@ Removes a previously added pre render hook
   
 | Name | Type | Description |          
 |------|------|-------------|          
-| f | [Function](https://developer.mozilla.org/en-US/docs/Web/JavaScript/Reference/Global_Objects/Function/prototype) | the function which was previously added |        
-  
+| f | [Function](https://developer.mozilla.org/en-US/docs/Web/JavaScript/Reference/Global_Objects/Function/prototype) | the function which was previously added |\n        
   
   
 ### removePostRenderHook(f) => {*}        
@@ -112,8 +109,7 @@ Removes a previously added post render hook
   
 | Name | Type | Description |          
 |------|------|-------------|          
-| f | [Function](https://developer.mozilla.org/en-US/docs/Web/JavaScript/Reference/Global_Objects/Function/prototype) | the function which was previously added |        
-  
+| f | [Function](https://developer.mozilla.org/en-US/docs/Web/JavaScript/Reference/Global_Objects/Function/prototype) | the function which was previously added |\n        
   
   
 ### schedulePreRenderTask(f, [id]) => {[Function](https://developer.mozilla.org/en-US/docs/Web/JavaScript/Reference/Global_Objects/Function/prototype)}        
@@ -124,9 +120,8 @@ Removes a previously added post render hook
   
 | Name | Type | Description |          
 |------|------|-------------|          
-| f | [Function](https://developer.mozilla.org/en-US/docs/Web/JavaScript/Reference/Global_Objects/Function/prototype) | the task to preform in the next render cycle. |        
-| [id] | [string](https://developer.mozilla.org/en-US/docs/Web/JavaScript/Reference/Global_Objects/String) | optional task id |        
-  
+| f | [Function](https://developer.mozilla.org/en-US/docs/Web/JavaScript/Reference/Global_Objects/Function/prototype) | the task to preform in the next render cycle. |          
+| [id] | * | optional task id |\n        
   
   
 ### scheduleRenderTask(f, [id]) => {[Function](https://developer.mozilla.org/en-US/docs/Web/JavaScript/Reference/Global_Objects/Function/prototype)}        
@@ -137,9 +132,8 @@ Removes a previously added post render hook
   
 | Name | Type | Description |          
 |------|------|-------------|          
-| f | [Function](https://developer.mozilla.org/en-US/docs/Web/JavaScript/Reference/Global_Objects/Function/prototype) | the task to preform in the next render cycle. |        
-| [id] | [string](https://developer.mozilla.org/en-US/docs/Web/JavaScript/Reference/Global_Objects/String) | optional task id |        
-  
+| f | [Function](https://developer.mozilla.org/en-US/docs/Web/JavaScript/Reference/Global_Objects/Function/prototype) | the task to preform in the next render cycle. |          
+| [id] | * | optional task id |\n        
   
   
 ### schedulePostRenderTask(f) => {[Function](https://developer.mozilla.org/en-US/docs/Web/JavaScript/Reference/Global_Objects/Function/prototype)}        
@@ -150,11 +144,10 @@ Removes a previously added post render hook
   
 | Name | Type | Description |          
 |------|------|-------------|          
-| f | [Function](https://developer.mozilla.org/en-US/docs/Web/JavaScript/Reference/Global_Objects/Function/prototype) | the task to preform after the next render cycle. |        
+| f | [Function](https://developer.mozilla.org/en-US/docs/Web/JavaScript/Reference/Global_Objects/Function/prototype) | the task to preform after the next render cycle. |\n        
   
   
-  
-### renderFrame() => {[void](https://developer.mozilla.org/en-US/docs/Web/JavaScript/Reference/Global_Objects/undefined)}        
+### renderFrame() => {[undefined](https://developer.mozilla.org/en-US/docs/Web/JavaScript/Reference/Global_Objects/undefined)}        
   
 **kind:** function        
   

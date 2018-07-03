@@ -9,7 +9,7 @@ Manages the injection of module dependencies.
   
 ### 🚫 _injectedObjects        
   
-**Type:** [Array](https://developer.mozilla.org/en-US/docs/Web/JavaScript/Reference/Global_Objects/Array)        
+**Type:** WeakMap<*, *>        
 **kind:** value        
   
   
@@ -33,9 +33,8 @@ Injects a replacement dependency into the module that owns this InjectionReceive
   
 | Name | Type | Description |          
 |------|------|-------------|          
-| original | * | the original value |        
-| injected | * | the replacement value |        
-  
+| original | * | the original value |          
+| injected | * | the replacement value |\n        
   
   
 ### injected(object) => {*}        
@@ -46,7 +45,6 @@ returns the injected value for an original value
   
 | Name | Type | Description |          
 |------|------|-------------|          
-| object | * | the original value |        
-  
+| object | * | the original value |\n        
   
   

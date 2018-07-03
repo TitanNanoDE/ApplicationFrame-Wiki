@@ -9,7 +9,7 @@
   
 ### caches        
   
-**Type:** [string](https://developer.mozilla.org/en-US/docs/Web/JavaScript/Reference/Global_Objects/String)        
+**Type:** [Object](https://developer.mozilla.org/en-US/docs/Web/JavaScript/Reference/Global_Objects/Object)        
 **kind:** value        
   
   
@@ -17,7 +17,7 @@
   
 ### registration        
   
-**Type:** [string](https://developer.mozilla.org/en-US/docs/Web/JavaScript/Reference/Global_Objects/String)        
+**Type:** [Object](https://developer.mozilla.org/en-US/docs/Web/JavaScript/Reference/Global_Objects/Object)        
 **kind:** value        
   
   
@@ -25,7 +25,7 @@
   
 ### fetch        
   
-**Type:** [string](https://developer.mozilla.org/en-US/docs/Web/JavaScript/Reference/Global_Objects/String)        
+**Type:** [Function](https://developer.mozilla.org/en-US/docs/Web/JavaScript/Reference/Global_Objects/Function/prototype)        
 **kind:** value        
   
   
@@ -33,7 +33,7 @@
   
 ### clients        
   
-**Type:** [string](https://developer.mozilla.org/en-US/docs/Web/JavaScript/Reference/Global_Objects/String)        
+**Type:** [Object](https://developer.mozilla.org/en-US/docs/Web/JavaScript/Reference/Global_Objects/Object)        
 **kind:** value        
   
   

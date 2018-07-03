@@ -8,8 +8,7 @@ transforms an native constructor into a normal ECMAScript prototype object
   
 | Name | Type | Description |            
 |------|------|-------------|            
-| nativeConstructor | [Function](https://developer.mozilla.org/en-US/docs/Web/JavaScript/Reference/Global_Objects/Function/prototype) |   |          
-  
+| nativeConstructor | [Function](https://developer.mozilla.org/en-US/docs/Web/JavaScript/Reference/Global_Objects/Function/prototype) |   |\n          
 # prepareConstructor(prototype) => {?}        
   
 **exported:** prepareConstructor        
@@ -20,8 +19,7 @@ transforms an native constructor into a normal ECMAScript prototype object
   
 | Name | Type | Description |          
 |------|------|-------------|          
-| prototype | ? |   |        
-  
+| prototype | ? |   |\n        
 # HTMLElementProto      
   
 **Type:** HTMLElement      

@@ -2,7 +2,7 @@
   
 **exported:** default      
 **kind:** object      
-**declaration:** let      
+**declaration:** const      
   
   
 ## Properties      
@@ -25,7 +25,7 @@
   
 ### last        
   
-**Type:**  id: string, work: Function         
+**Type:**  id: *, work: Function         
 **kind:** value        
   
   
@@ -57,9 +57,8 @@ adds a new item to the task list.
   
 | Name | Type | Description |          
 |------|------|-------------|          
-| task | [Function](https://developer.mozilla.org/en-US/docs/Web/JavaScript/Reference/Global_Objects/Function/prototype) | the task to add to the list |        
-| [id] | * | the id of this tasks. If provided no task with the same id can be added again. |        
-  
+| task | [Function](https://developer.mozilla.org/en-US/docs/Web/JavaScript/Reference/Global_Objects/Function/prototype) | the task to add to the list |          
+| [id] | * | the id of this tasks. If provided no task with the same id can be added again. |\n        
   
   
 ### unshift(task, [id=null]) => {[undefined](https://developer.mozilla.org/en-US/docs/Web/JavaScript/Reference/Global_Objects/undefined)}        
@@ -70,9 +69,8 @@ adds a new task to the beginning of the list
   
 | Name | Type | Description |          
 |------|------|-------------|          
-| task | Function} |      [description] |        
-| [id=null] | * | [description] |        
-  
+| task | Function} |      [description] |          
+| [id=null] | * | [description] |\n        
   
   
 ### flush() => {[undefined](https://developer.mozilla.org/en-US/docs/Web/JavaScript/Reference/Global_Objects/undefined)}        
@@ -91,8 +89,7 @@ Filters out tasks that do not satisfy the condition.
   
 | Name | Type | Description |          
 |------|------|-------------|          
-| callback | [Function](https://developer.mozilla.org/en-US/docs/Web/JavaScript/Reference/Global_Objects/Function/prototype) |   |        
-  
+| callback | [Function](https://developer.mozilla.org/en-US/docs/Web/JavaScript/Reference/Global_Objects/Function/prototype) |   |\n        
   
   
 ### run(args) => {[undefined](https://developer.mozilla.org/en-US/docs/Web/JavaScript/Reference/Global_Objects/undefined)}        
@@ -103,8 +100,7 @@ Runs all tasks but keeps tasks, which didn't complete, in the list.
   
 | Name | Type | Description |          
 |------|------|-------------|          
-| args | ...* | arguments for the task execution |        
-  
+| args | ...* | arguments for the task execution |\n        
   
   
 ### getAll() => {?}        

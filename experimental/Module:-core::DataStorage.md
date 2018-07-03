@@ -53,12 +53,11 @@
   
 **kind:** function        
   
-[fill description]        
+stores a value inside the DataStorage and triggers callbacks.        
   
 | Name | Type | Description |          
 |------|------|-------------|          
-| value | * | [description] |        
-  
+| value | * | any value can be stored |\n        
   
   
 ### when(callback) => {[undefined](https://developer.mozilla.org/en-US/docs/Web/JavaScript/Reference/Global_Objects/undefined)}        
@@ -70,8 +69,7 @@ Registers a callback which is executed everytime a value is filled into the Data
   
 | Name | Type | Description |          
 |------|------|-------------|          
-| callback | [Function](https://developer.mozilla.org/en-US/docs/Web/JavaScript/Reference/Global_Objects/Function/prototype) |   |        
-  
+| callback | [Function](https://developer.mozilla.org/en-US/docs/Web/JavaScript/Reference/Global_Objects/Function/prototype) |   |\n        
   
   
 ### once(callback) => {[undefined](https://developer.mozilla.org/en-US/docs/Web/JavaScript/Reference/Global_Objects/undefined)}        
@@ -83,8 +81,7 @@ Registers a one time callback which is executed as soon as the DataStorage has b
   
 | Name | Type | Description |          
 |------|------|-------------|          
-| callback | [Function](https://developer.mozilla.org/en-US/docs/Web/JavaScript/Reference/Global_Objects/Function/prototype) |   |        
-  
+| callback | [Function](https://developer.mozilla.org/en-US/docs/Web/JavaScript/Reference/Global_Objects/Function/prototype) |   |\n        
   
   
 ### whenNext(callback) => {[undefined](https://developer.mozilla.org/en-US/docs/Web/JavaScript/Reference/Global_Objects/undefined)}        
@@ -96,7 +93,6 @@ Registers a one time callback for the next time the DataStorage is filled. This 
   
 | Name | Type | Description |          
 |------|------|-------------|          
-| callback | [Function](https://developer.mozilla.org/en-US/docs/Web/JavaScript/Reference/Global_Objects/Function/prototype) |   |        
-  
+| callback | [Function](https://developer.mozilla.org/en-US/docs/Web/JavaScript/Reference/Global_Objects/Function/prototype) |   |\n        
   
   

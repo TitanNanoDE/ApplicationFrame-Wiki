@@ -2,7 +2,7 @@
   
 **exported:** default      
 **kind:** object      
-**declaration:** let      
+**declaration:** const      
   
   
 ## Properties      
@@ -33,9 +33,8 @@ gives the ability to register an callback as soon as a event is fired
   
 | Name | Type | Description |          
 |------|------|-------------|          
-| event | [string](https://developer.mozilla.org/en-US/docs/Web/JavaScript/Reference/Global_Objects/String) |    the event to wait for |        
-| listener | [Function](https://developer.mozilla.org/en-US/docs/Web/JavaScript/Reference/Global_Objects/Function/prototype) | the callback function |        
-  
+| event | [string](https://developer.mozilla.org/en-US/docs/Web/JavaScript/Reference/Global_Objects/String) |    the event to wait for |          
+| listener | [Function](https://developer.mozilla.org/en-US/docs/Web/JavaScript/Reference/Global_Objects/Function/prototype) | the callback function |\n        
   
   
 ### add(key, value) => {[void](https://developer.mozilla.org/en-US/docs/Web/JavaScript/Reference/Global_Objects/undefined)}        
@@ -46,8 +45,7 @@ assigns a new pair
   
 | Name | Type | Description |          
 |------|------|-------------|          
-| key | [string](https://developer.mozilla.org/en-US/docs/Web/JavaScript/Reference/Global_Objects/String) |   the key for the assignment |        
-| value | * | any value can be stored |        
-  
+| key | [string](https://developer.mozilla.org/en-US/docs/Web/JavaScript/Reference/Global_Objects/String) |   the key for the assignment |          
+| value | * | any value can be stored |\n        
   
   

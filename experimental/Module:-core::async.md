@@ -8,5 +8,4 @@
   
 | Name | Type | Description |        
 |------|------|-------------|        
-| callback | [Function](https://developer.mozilla.org/en-US/docs/Web/JavaScript/Reference/Global_Objects/Function/prototype) | task to execute |      
-  
+| callback | [Function](https://developer.mozilla.org/en-US/docs/Web/JavaScript/Reference/Global_Objects/Function/prototype) | task to execute |\n      

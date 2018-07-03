@@ -54,12 +54,11 @@ Constructs the Application prototype.
 **kind:** function        
   
 Do not use any more.        
-@see module:core/Application~Application.constructor        
+@see Application.constructor        
   
 | Name | Type | Description |          
 |------|------|-------------|          
-| args | [Array](https://developer.mozilla.org/en-US/docs/Web/JavaScript/Reference/Global_Objects/Array).&lt;any&gt; | {@link Application.constructor} |        
-  
+| args | [Array](https://developer.mozilla.org/en-US/docs/Web/JavaScript/Reference/Global_Objects/Array).&lt;any&gt; | {@link Application.constructor} |\n        
   
   
 ### init() => {[undefined](https://developer.mozilla.org/en-US/docs/Web/JavaScript/Reference/Global_Objects/undefined)}        
@@ -78,7 +77,6 @@ Emits a termination notice on the object. This is intended to notify sub compone
   
 | Name | Type | Description |          
 |------|------|-------------|          
-| reason | [string](https://developer.mozilla.org/en-US/docs/Web/JavaScript/Reference/Global_Objects/String) | The reason for the termination. |        
-  
+| reason | [string](https://developer.mozilla.org/en-US/docs/Web/JavaScript/Reference/Global_Objects/String) | The reason for the termination. |\n        
   
   

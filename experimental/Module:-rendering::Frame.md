@@ -4,7 +4,7 @@
 **kind:** object      
 **declaration:** const      
   
-  
+Internal representation of a frame.      
 ## Properties      
   
 ### preRenderTasks        
