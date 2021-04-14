@@ -33,7 +33,7 @@ Name of the application, other components can identify it.
   
 ### version        
   
-**Type:** String        
+**Type:** [string](https://developer.mozilla.org/en-US/docs/Web/JavaScript/Reference/Global_Objects/String)        
 **kind:** value        
   
 The current version of the application.        

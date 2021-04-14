@@ -25,7 +25,6 @@ subscribes to the native push service
   
 | Name | Type | Description |          
 |------|------|-------------|          
-| args | * | native push subscribtion arguments |        
-  
+| args | * | native push subscribtion arguments |\n        
   
   

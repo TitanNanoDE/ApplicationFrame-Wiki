@@ -18,8 +18,7 @@
   
 | Name | Type | Description |          
 |------|------|-------------|          
-| task | [Promise](https://developer.mozilla.org/en-US/docs/Web/JavaScript/Reference/Global_Objects/Promise) | [description] |        
-  
+| task | [Promise](https://developer.mozilla.org/en-US/docs/Web/JavaScript/Reference/Global_Objects/Promise) | [description] |\n        
   
   
 ### 🚫 _apply(event) => {[undefined](https://developer.mozilla.org/en-US/docs/Web/JavaScript/Reference/Global_Objects/undefined)}        
@@ -30,7 +29,6 @@
   
 | Name | Type | Description |          
 |------|------|-------------|          
-| event | Event | the event to wait for |        
-  
+| event | Event | the event to wait for |\n        
   
   

@@ -1,4 +1,4 @@
-# ~~Make(object, prototype) => {[function](https://developer.mozilla.org/en-US/docs/Web/JavaScript/Reference/Global_Objects/Function/prototype)}~~        
+# ~~Make(object, prototype) => {[Function](https://developer.mozilla.org/en-US/docs/Web/JavaScript/Reference/Global_Objects/Function/prototype)}~~        
   
 **exported:** Make        
 **kind:** function        
@@ -8,8 +8,8 @@ Creates a new object with the given prototype. If two arguments are passed in, t
   
 | Name | Type | Description |          
 |------|------|-------------|          
-| object | [Object](https://developer.mozilla.org/en-US/docs/Web/JavaScript/Reference/Global_Objects/Object) |   |          
-| prototype | [Object](https://developer.mozilla.org/en-US/docs/Web/JavaScript/Reference/Global_Objects/Object) |   |\n        
+| object | [object](https://developer.mozilla.org/en-US/docs/Web/JavaScript/Reference/Global_Objects/Object) |   |          
+| prototype | [object](https://developer.mozilla.org/en-US/docs/Web/JavaScript/Reference/Global_Objects/Object) |   |\n        
 # ~~hasPrototype(object, prototype) => {[boolean](https://developer.mozilla.org/en-US/docs/Web/JavaScript/Reference/Global_Objects/Boolean)}~~      
   
 **exported:** hasPrototype      
@@ -20,5 +20,5 @@ This method checks if the given prototype is in the prototype chain of the given
   
 | Name | Type | Description |        
 |------|------|-------------|        
-| object | [Object](https://developer.mozilla.org/en-US/docs/Web/JavaScript/Reference/Global_Objects/Object) |   |        
-| prototype | [Object](https://developer.mozilla.org/en-US/docs/Web/JavaScript/Reference/Global_Objects/Object) |   |\n      
+| object | [object](https://developer.mozilla.org/en-US/docs/Web/JavaScript/Reference/Global_Objects/Object) |   |        
+| prototype | [object](https://developer.mozilla.org/en-US/docs/Web/JavaScript/Reference/Global_Objects/Object) |   |\n      

@@ -9,7 +9,7 @@ Allocates objects and arrays in memory. The allocated structures are excluded fr
 | Name | Type | Description |            
 |------|------|-------------|            
 | typeOrLength | [string](https://developer.mozilla.org/en-US/docs/Web/JavaScript/Reference/Global_Objects/String)&#124;[number](https://developer.mozilla.org/en-US/docs/Web/JavaScript/Reference/Global_Objects/Number) | either the length of an array, or a string identifying an object type. |            
-| [prototype={}] | [Object](https://developer.mozilla.org/en-US/docs/Web/JavaScript/Reference/Global_Objects/Object) | the structures prototype |\n          
+| [prototype={}] | [object](https://developer.mozilla.org/en-US/docs/Web/JavaScript/Reference/Global_Objects/Object) | the structures prototype |\n          
 # release(object) => {[undefined](https://developer.mozilla.org/en-US/docs/Web/JavaScript/Reference/Global_Objects/undefined)}        
   
 **exported:** release        

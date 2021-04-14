@@ -1,74 +1,103 @@
-# injectionReceiver              
+# ServiceWorkerMeta                
   
-**exported:** injectionReceiver              
+**exported:** ServiceWorkerMeta                
+**kind:** object                
+**declaration:** const                
+  
+  
+## Properties                
+  
+### object                  
+  
+**kind:** value                  
+  
+  
+  
+  
+### \_\_proto\_\_                  
+  
+**Type:** [InjectionReceiver](./Module:-core::InjectionReceiver#injectionreceiver)                  
+**kind:** value                  
+  
+  
+  
+  
+## Methods                
+  
+  
+  
+# ServiceWorker              
+  
+**exported:** ServiceWorker              
+**kind:** object              
 **declaration:** const              
   
+[meta(ServiceWorkerMeta)]              
+## Properties              
   
+### \_\_proto\_\_                
   
-# ServiceWorker            
-  
-**exported:** ServiceWorker            
-**kind:** object            
-**declaration:** const            
-  
-  
-## Properties            
-  
-### \_\_proto\_\_              
-  
-**Type:** [ServiceWorkerEventTarget](./Module:-ServiceWorker::lib::ServiceWorkerEventTarget#serviceworkereventtarget)              
-**kind:** value              
+**Type:** [ServiceWorkerEventTarget](./Module:-ServiceWorker::lib::ServiceWorkerEventTarget#serviceworkereventtarget)                
+**kind:** value                
   
   
   
   
-## Methods            
+## Methods              
   
-### onInit() => {?}              
+### onInit() => {?}                
   
-**kind:** function              
+**kind:** function                
   
   
   
   
   
-### onActivate() => {?}              
+### onActivate() => {?}                
   
-**kind:** function              
-  
-  
-  
-  
-  
-### onFetch() => {?}              
-  
-**kind:** function              
+**kind:** function                
   
   
   
   
   
-### onInstall() => {?}              
+### onFetch() => {?}                
   
-**kind:** function              
-  
-  
-  
-  
-  
-### skipWaiting() => {?}              
-  
-**kind:** function              
+**kind:** function                
   
   
   
   
   
-### bootstrap() => {?}              
+### onInstall() => {?}                
   
-**kind:** function              
+**kind:** function                
   
   
+  
+  
+  
+### skipWaiting() => {?}                
+  
+**kind:** function                
+  
+  
+  
+  
+  
+### bootstrap() => {?}                
+  
+**kind:** function                
+  
+  
+  
+  
+  
+# Cache            
+  
+**Type:** Cache            
+**exported:** Cache            
+**kind:** value            
   
   
   
@@ -88,10 +117,10 @@
   
   
   
-# Cache      
+# PendingTasks      
   
-**Type:** [Cache](./Module:-ServiceWorker::Cache#cache)      
-**exported:** Cache      
+**Type:** [PendingTasks](./Module:-ServiceWorker::PendingTasks#pendingtasks)      
+**exported:** PendingTasks      
 **kind:** value      
   
   

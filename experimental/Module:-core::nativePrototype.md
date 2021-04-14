@@ -1,4 +1,4 @@
-# nativePrototype(nativeConstructor) => {[Object](https://developer.mozilla.org/en-US/docs/Web/JavaScript/Reference/Global_Objects/Object)}          
+# nativePrototype(nativeConstructor) => {[object](https://developer.mozilla.org/en-US/docs/Web/JavaScript/Reference/Global_Objects/Object)}          
   
 **exported:** nativePrototype          
 **kind:** function          
@@ -22,7 +22,7 @@ transforms an native constructor into a normal ECMAScript prototype object
 | prototype | ? |   |\n        
 # HTMLElementProto      
   
-**Type:** HTMLElement      
+**Type:** [HTMLElement](https://developer.mozilla.org/en-US/docs/Web/API/HTMLElement)      
 **exported:** HTMLElement      
 **declaration:** const      
   

@@ -9,7 +9,7 @@
   
 ### caches        
   
-**Type:** [Object](https://developer.mozilla.org/en-US/docs/Web/JavaScript/Reference/Global_Objects/Object)        
+**Type:** [object](https://developer.mozilla.org/en-US/docs/Web/JavaScript/Reference/Global_Objects/Object)        
 **kind:** value        
   
   
@@ -17,7 +17,7 @@
   
 ### registration        
   
-**Type:** [Object](https://developer.mozilla.org/en-US/docs/Web/JavaScript/Reference/Global_Objects/Object)        
+**Type:** [object](https://developer.mozilla.org/en-US/docs/Web/JavaScript/Reference/Global_Objects/Object)        
 **kind:** value        
   
   
@@ -33,7 +33,7 @@
   
 ### clients        
   
-**Type:** [Object](https://developer.mozilla.org/en-US/docs/Web/JavaScript/Reference/Global_Objects/Object)        
+**Type:** [object](https://developer.mozilla.org/en-US/docs/Web/JavaScript/Reference/Global_Objects/Object)        
 **kind:** value        
   
   

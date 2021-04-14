@@ -1,4 +1,4 @@
-# ServiceWorkerEventTarget      
+# Observable      
   
 **exported:** default      
 **kind:** object      
@@ -6,6 +6,14 @@
   
   
 ## Properties      
+  
+### pObservers        
+  
+**Type:** [Array](https://developer.mozilla.org/en-US/docs/Web/JavaScript/Reference/Global_Objects/Array).&lt;[object](https://developer.mozilla.org/en-US/docs/Web/JavaScript/Reference/Global_Objects/Object)&gt;        
+**kind:** value        
+  
+  
+  
   
 ### \_\_proto\_\_        
   
@@ -17,7 +25,15 @@
   
 ## Methods      
   
-### emit(event, data) => {?}        
+### constructor() => {?}        
+  
+**kind:** function        
+  
+  
+  
+  
+  
+### observe(observer) => {?}        
   
 **kind:** function        
   
@@ -25,29 +41,29 @@
   
 | Name | Type | Description |          
 |------|------|-------------|          
-| event | ? |   |          
+| observer | ? |   |\n        
+  
+  
+### removeObserver(observer) => {?}        
+  
+**kind:** function        
+  
+  
+  
+| Name | Type | Description |          
+|------|------|-------------|          
+| observer | ? |   |\n        
+  
+  
+### emit(type, data) => {?}        
+  
+**kind:** function        
+  
+  
+  
+| Name | Type | Description |          
+|------|------|-------------|          
+| type | ? |   |          
 | data | ? |   |\n        
-  
-  
-### constructor(...args) => {?}        
-  
-**kind:** function        
-  
-  
-  
-| Name | Type | Description |          
-|------|------|-------------|          
-| ...args | ? |   |\n        
-  
-  
-### undefined(event) => {?}        
-  
-**kind:** function        
-  
-  
-  
-| Name | Type | Description |          
-|------|------|-------------|          
-| event | ? |   |\n        
   
   

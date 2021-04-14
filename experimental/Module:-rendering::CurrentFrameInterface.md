@@ -31,7 +31,7 @@ An abstract representation of the currently rendering frame
   
 ## Methods      
   
-### constructor(startTime, maxFrameDuration) => {[CurrentFrameInterface](./Module:-rendering::CurrentFrameInterface#currentframeinterface)}        
+### constructor(config, config.startTime, config.maxFrameDuration) => {[CurrentFrameInterface](./Module:-rendering::CurrentFrameInterface#currentframeinterface)}        
   
 **kind:** function        
   
@@ -39,8 +39,9 @@ An abstract representation of the currently rendering frame
   
 | Name | Type | Description |          
 |------|------|-------------|          
-| startTime | [number](https://developer.mozilla.org/en-US/docs/Web/JavaScript/Reference/Global_Objects/Number) |    the time the current frame has started rendering |          
-| maxFrameDuration | [number](https://developer.mozilla.org/en-US/docs/Web/JavaScript/Reference/Global_Objects/Number) | the maximum duration |\n        
+| config | [object](https://developer.mozilla.org/en-US/docs/Web/JavaScript/Reference/Global_Objects/Object) |   |          
+| config.startTime | [number](https://developer.mozilla.org/en-US/docs/Web/JavaScript/Reference/Global_Objects/Number) |    the time the current frame has started rendering |          
+| config.maxFrameDuration | [number](https://developer.mozilla.org/en-US/docs/Web/JavaScript/Reference/Global_Objects/Number) | the maximum duration |\n        
   
   
 ### ttl() => {[number](https://developer.mozilla.org/en-US/docs/Web/JavaScript/Reference/Global_Objects/Number)}        

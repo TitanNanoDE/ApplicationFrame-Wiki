@@ -17,7 +17,7 @@ The current service worker of the site
   
 ### scope        
   
-**Type:** Boolean&#124;[string](https://developer.mozilla.org/en-US/docs/Web/JavaScript/Reference/Global_Objects/String)        
+**Type:** (boolean&#124;string)        
 **kind:** value        
   
 - true: the scope is extracted from the mainfest file - false: the ServiceWorker is registered without a scope - string: the string is applied as scope  defaults to true        
@@ -32,7 +32,7 @@ The current service worker of the site
   
 ### PushManager        
   
-**Type:** PushManager        
+**Type:** [PushManager](./Module:-ServiceWorker::PushManager#pushmanager)        
 **kind:** value        
   
   
@@ -40,7 +40,7 @@ The current service worker of the site
   
 ### NotificationManager        
   
-**Type:** NotificationManager        
+**Type:** [NotificationManager](./Module:-ServiceWorker::NotificationManager#notificationmanager)        
 **kind:** value        
   
   
@@ -48,7 +48,7 @@ The current service worker of the site
   
 ### \_\_proto\_\_        
   
-**Type:** ServiceWorkerEventTarget        
+**Type:** [ServiceWorkerEventTarget](./Module:-ServiceWorker::lib::ServiceWorkerEventTarget#serviceworkereventtarget)        
 **kind:** value        
   
   
@@ -56,7 +56,7 @@ The current service worker of the site
   
 ## Methods      
   
-### init() => {?}        
+### init() => {Promise<ServiceWorkerRegistration>}        
   
 **kind:** function        
   
@@ -88,6 +88,6 @@ consumes an application object. By consuming the application all events of both 
   
 | Name | Type | Description |          
 |------|------|-------------|          
-| object | [ApplicationTrait](./Module:-traits::index#applicationtrait) |   |\n        
+| object | ApplicationTrait |   |\n        
   
   

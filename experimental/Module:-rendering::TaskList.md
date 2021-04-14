@@ -69,8 +69,8 @@ adds a new task to the beginning of the list
   
 | Name | Type | Description |          
 |------|------|-------------|          
-| task | Function} |      [description] |          
-| [id=null] | * | [description] |\n        
+| task | [Function](https://developer.mozilla.org/en-US/docs/Web/JavaScript/Reference/Global_Objects/Function/prototype) |   |          
+| [id=null] | * |   |\n        
   
   
 ### flush() => {[undefined](https://developer.mozilla.org/en-US/docs/Web/JavaScript/Reference/Global_Objects/undefined)}        

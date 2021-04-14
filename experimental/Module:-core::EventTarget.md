@@ -9,7 +9,7 @@
   
 ### 🚫 _listeners        
   
-**Type:** [Object](https://developer.mozilla.org/en-US/docs/Web/JavaScript/Reference/Global_Objects/Object)        
+**Type:** [object](https://developer.mozilla.org/en-US/docs/Web/JavaScript/Reference/Global_Objects/Object)        
 **kind:** value        
   
   
@@ -25,12 +25,15 @@
   
   
   
-### ~~_make() => {this}~~        
+### ~~_make(args) => {this}~~        
   
 **kind:** function        
   
 Do not use the make constructors        
   
+| Name | Type | Description |          
+|------|------|-------------|          
+| args | ...* |   |\n        
   
   
 ### on(type, listener) => {[undefined](https://developer.mozilla.org/en-US/docs/Web/JavaScript/Reference/Global_Objects/undefined)}        

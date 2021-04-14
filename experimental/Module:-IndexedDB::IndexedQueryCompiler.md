@@ -1,3 +1,40 @@
+# IndexedQuery        
+  
+**exported:** IndexedQuery        
+**kind:** object        
+**declaration:** const        
+  
+A query object for an indexedDB request.        
+## Properties        
+  
+### name          
+  
+**Type:** [string](https://developer.mozilla.org/en-US/docs/Web/JavaScript/Reference/Global_Objects/String)          
+**kind:** value          
+  
+  
+  
+  
+### rangeStart          
+  
+**Type:** *          
+**kind:** value          
+  
+  
+  
+  
+### rangeEnd          
+  
+**Type:** *          
+**kind:** value          
+  
+  
+  
+  
+## Methods        
+  
+  
+  
 # IndexedQueryCompiler      
   
 **exported:** default      
@@ -104,7 +141,7 @@ starts a new value range
 | Name | Type | Description |          
 |------|------|-------------|          
 | value | * |                 range start value |          
-| [exclude=false] | Boolean | determines if the start value will be included in the range |\n        
+| [exclude=false] | [boolean](https://developer.mozilla.org/en-US/docs/Web/JavaScript/Reference/Global_Objects/Boolean) | determines if the start value will be included in the range |\n        
   
   
 ### to(value, [exclude=false]) => {[IndexedQueryCompiler](./Module:-IndexedDB::IndexedQueryCompiler#indexedquerycompiler)}        
@@ -116,7 +153,7 @@ ends a value range
 | Name | Type | Description |          
 |------|------|-------------|          
 | value | * |                 end value of the range |          
-| [exclude=false] | Boolean | determines if the end value will be included in the range |\n        
+| [exclude=false] | [boolean](https://developer.mozilla.org/en-US/docs/Web/JavaScript/Reference/Global_Objects/Boolean) | determines if the end value will be included in the range |\n        
   
   
 ### lowerThan(value) => {[IndexedQueryCompiler](./Module:-IndexedDB::IndexedQueryCompiler#indexedquerycompiler)}        

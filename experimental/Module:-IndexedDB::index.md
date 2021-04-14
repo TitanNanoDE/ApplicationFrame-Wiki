@@ -33,7 +33,7 @@ runs all db setup tasks
   
   
   
-### constructor(name) => {?}        
+### constructor(name) => {[IndexedDB](./Module:-IndexedDB::index#indexeddb)}        
   
 **kind:** function        
   
@@ -44,12 +44,15 @@ Instantiates a new indexed DB. All version definitions have to be made done sync
 | name | [string](https://developer.mozilla.org/en-US/docs/Web/JavaScript/Reference/Global_Objects/String) | of the db to open |\n        
   
   
-### ~~_make() => {?}~~        
+### ~~_make(args) => {[IndexedDB](./Module:-IndexedDB::index#indexeddb)}~~        
   
 **kind:** function        
   
   
   
+| Name | Type | Description |          
+|------|------|-------------|          
+| args | ...any |   |\n        
   
   
 ### define(version) => {[IndexedDefinition](./Module:-IndexedDB::index#indexeddefinition)}        
@@ -83,6 +86,47 @@ Stores an object in the selected store. The promise resolves to the transaction 
 | Name | Type | Description |          
 |------|------|-------------|          
 | storeName | [string](https://developer.mozilla.org/en-US/docs/Web/JavaScript/Reference/Global_Objects/String) | name of the targeted store |          
-| value | [Object](https://developer.mozilla.org/en-US/docs/Web/JavaScript/Reference/Global_Objects/Object) |     value to store |\n        
+| value | [object](https://developer.mozilla.org/en-US/docs/Web/JavaScript/Reference/Global_Objects/Object) |     value to store |\n        
+  
+  
+### delete(storeName) => {[IndexedDeleteRangeCompiler](./Module:-IndexedDB::IndexedDeleteRangeCompiler#indexeddeleterangecompiler)}        
+  
+**kind:** function        
+  
+Removes objects which match the specified key range from the selected store. The key range is always matched against the stores primary key.        
+  
+| Name | Type | Description |          
+|------|------|-------------|          
+| storeName | [string](https://developer.mozilla.org/en-US/docs/Web/JavaScript/Reference/Global_Objects/String) |   |\n        
+  
+  
+### clear(storeName) => {[Promise](https://developer.mozilla.org/en-US/docs/Web/JavaScript/Reference/Global_Objects/Promise)}        
+  
+**kind:** function        
+  
+Removes all entries from the selected store.        
+  
+| Name | Type | Description |          
+|------|------|-------------|          
+| storeName | [string](https://developer.mozilla.org/en-US/docs/Web/JavaScript/Reference/Global_Objects/String) |   |\n        
+  
+  
+### close() => {?}        
+  
+**kind:** function        
+  
+  
+  
+  
+  
+### upgrade(version) => {?}        
+  
+**kind:** function        
+  
+  
+  
+| Name | Type | Description |          
+|------|------|-------------|          
+| version | ? |   |\n        
   
   

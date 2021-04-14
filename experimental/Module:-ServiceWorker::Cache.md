@@ -1,3 +1,24 @@
+# CacheMeta        
+  
+**exported:** CacheMeta        
+**kind:** object        
+**declaration:** const        
+  
+  
+## Properties        
+  
+### \_\_proto\_\_          
+  
+**Type:** [InjectionReceiver](./Module:-core::InjectionReceiver#injectionreceiver)          
+**kind:** value          
+  
+  
+  
+  
+## Methods        
+  
+  
+  
 # Cache      
   
 **exported:** default      
@@ -18,8 +39,7 @@
   
 | Name | Type | Description |          
 |------|------|-------------|          
-| manifestUrl | ? |   |        
-  
+| manifestUrl | ? |   |\n        
   
   
 ### cleanUp() => {?}        
@@ -46,7 +66,6 @@
   
 | Name | Type | Description |          
 |------|------|-------------|          
-| request | ? |   |        
-  
+| request | ? |   |\n        
   
   

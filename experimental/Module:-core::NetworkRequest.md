@@ -9,7 +9,7 @@ A network request
   
 ### 🚫 _body        
   
-**Type:** [Object](https://developer.mozilla.org/en-US/docs/Web/JavaScript/Reference/Global_Objects/Object)        
+**Type:** [object](https://developer.mozilla.org/en-US/docs/Web/JavaScript/Reference/Global_Objects/Object)        
 **kind:** object        
   
   
@@ -17,7 +17,7 @@ A network request
   
 ### 🚫 _headers        
   
-**Type:** [Object](https://developer.mozilla.org/en-US/docs/Web/JavaScript/Reference/Global_Objects/Object)        
+**Type:** [object](https://developer.mozilla.org/en-US/docs/Web/JavaScript/Reference/Global_Objects/Object)        
 **kind:** value        
   
   
@@ -49,7 +49,7 @@ A network request
   
 ### 🚫 _listeners        
   
-**Type:** [Array](https://developer.mozilla.org/en-US/docs/Web/JavaScript/Reference/Global_Objects/Array).&lt;[function](https://developer.mozilla.org/en-US/docs/Web/JavaScript/Reference/Global_Objects/Function/prototype)&gt;        
+**Type:** [Array](https://developer.mozilla.org/en-US/docs/Web/JavaScript/Reference/Global_Objects/Array).&lt;[Function](https://developer.mozilla.org/en-US/docs/Web/JavaScript/Reference/Global_Objects/Function/prototype)&gt;        
 **kind:** value        
   
   
@@ -57,7 +57,7 @@ A network request
   
 ### completed        
   
-**Type:** Boolean        
+**Type:** [boolean](https://developer.mozilla.org/en-US/docs/Web/JavaScript/Reference/Global_Objects/Boolean)        
 **kind:** value        
   
 indicator flag whether or not the request is completed        
@@ -81,7 +81,7 @@ indicator flag whether or not the request is completed
   
 ## Methods      
   
-### constructor(url, config) => {[NetworkRequest](./Module:-core::NetworkRequest#networkrequest)}        
+### constructor(url, config, config.method, config.type) => {[NetworkRequest](./Module:-core::NetworkRequest#networkrequest)}        
   
 **kind:** function        
   
@@ -90,7 +90,9 @@ The constructor for the NetworkRequest. It simply sets up the properties.
 | Name | Type | Description |          
 |------|------|-------------|          
 | url | [string](https://developer.mozilla.org/en-US/docs/Web/JavaScript/Reference/Global_Objects/String) | the url this request should be made to |          
-| config | [Object](https://developer.mozilla.org/en-US/docs/Web/JavaScript/Reference/Global_Objects/Object) | addintional configuartion for the request |\n        
+| config | [object](https://developer.mozilla.org/en-US/docs/Web/JavaScript/Reference/Global_Objects/Object) | addintional configuartion for the request |          
+| config.method | [string](https://developer.mozilla.org/en-US/docs/Web/JavaScript/Reference/Global_Objects/String) |   |          
+| config.type | [string](https://developer.mozilla.org/en-US/docs/Web/JavaScript/Reference/Global_Objects/String) |   |\n        
   
   
 ### ~~_make(args) => {[void](https://developer.mozilla.org/en-US/docs/Web/JavaScript/Reference/Global_Objects/undefined)}~~        
@@ -102,7 +104,7 @@ use the constructor
   
 | Name | Type | Description |          
 |------|------|-------------|          
-| args | array | [description] |\n        
+| args | [Array](https://developer.mozilla.org/en-US/docs/Web/JavaScript/Reference/Global_Objects/Array) | [description] |\n        
   
   
 ### body(data) => {[NetworkRequest](./Module:-core::NetworkRequest#networkrequest)}        
@@ -113,7 +115,7 @@ this method will set the given object as the request body.
   
 | Name | Type | Description |          
 |------|------|-------------|          
-| data | [Object](https://developer.mozilla.org/en-US/docs/Web/JavaScript/Reference/Global_Objects/Object) | body data for this request |\n        
+| data | [object](https://developer.mozilla.org/en-US/docs/Web/JavaScript/Reference/Global_Objects/Object) | body data for this request |\n        
   
   
 ### headers(headers) => {[NetworkRequest](./Module:-core::NetworkRequest#networkrequest)}        
@@ -124,7 +126,7 @@ This method will set the request headers, in case custom headers are required.
   
 | Name | Type | Description |          
 |------|------|-------------|          
-| headers | [Object](https://developer.mozilla.org/en-US/docs/Web/JavaScript/Reference/Global_Objects/Object) | a object with all header properties for this request |\n        
+| headers | [object](https://developer.mozilla.org/en-US/docs/Web/JavaScript/Reference/Global_Objects/Object) | a object with all header properties for this request |\n        
   
   
 ### setHeader(key, value) => {[NetworkRequest](./Module:-core::NetworkRequest#networkrequest)}        
@@ -147,7 +149,7 @@ sets a callback for when the request is ready
   
 | Name | Type | Description |          
 |------|------|-------------|          
-| fn | [function](https://developer.mozilla.org/en-US/docs/Web/JavaScript/Reference/Global_Objects/Function/prototype) | a callback function as soon as the data is ready |\n        
+| fn | [Function](https://developer.mozilla.org/en-US/docs/Web/JavaScript/Reference/Global_Objects/Function/prototype) | a callback function as soon as the data is ready |\n        
   
   
 ### send() => {[Promise](https://developer.mozilla.org/en-US/docs/Web/JavaScript/Reference/Global_Objects/Promise)}        
