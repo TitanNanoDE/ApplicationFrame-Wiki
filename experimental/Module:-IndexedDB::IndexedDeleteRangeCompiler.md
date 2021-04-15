@@ -7,31 +7,39 @@
 the range compiler for indexedDB delete operations.      
 ## Properties      
   
-### undefined        
+### 🚫 \[Private.db\]        
   
-**Type:** ?        
+**Type:** [Promise](https://developer.mozilla.org/en-US/docs/Web/JavaScript/Reference/Global_Objects/Promise).&lt;[IDBDatabase](https://developer.mozilla.org/en-US/docs/Web/API/IDBDatabase)&gt;        
 **kind:** value        
   
   
   
   
-### undefined        
+### 🚫 \[Private.query\]        
   
-**Type:** ?        
+**Type:** [IndexedQuery](./Module:-IndexedDB::IndexedQueryCompiler#indexedquery)        
 **kind:** value        
   
   
   
   
-### undefined        
+### 🚫 \[Private.store\]        
   
-**Type:** ?        
+**Type:** [string](https://developer.mozilla.org/en-US/docs/Web/JavaScript/Reference/Global_Objects/String)        
 **kind:** value        
   
   
   
   
 ## Methods      
+  
+### 🚫 \[Private.buildKeyRange\]() => {[IDBKeyRange](https://developer.mozilla.org/en-US/docs/Web/API/IDBKeyRange)}        
+  
+**kind:** function        
+  
+Builds a IDBKeyRange from an {IndexedQuery}        
+  
+  
   
 ### constructor(storeName, db) => {[IndexedDeleteRangeCompiler](./Module:-IndexedDB::IndexedDeleteRangeCompiler#indexeddeleterangecompiler)}        
   
@@ -102,19 +110,11 @@ filters items from the result where the index is higher than the given value
 | value | * |   |\n        
   
   
-### undefined() => {?}        
+### commit() => {[Promise](https://developer.mozilla.org/en-US/docs/Web/JavaScript/Reference/Global_Objects/Promise)}        
   
 **kind:** function        
   
-  
-  
-  
-  
-### commit() => {?}        
-  
-**kind:** function        
-  
-  
+applies the delete operation based on the specified range        
   
   
   
